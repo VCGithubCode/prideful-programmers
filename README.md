@@ -159,3 +159,13 @@ One or two paragraphs providing an overview of our project
 
 ## Acknowledgements
 [Edgar Kimbugwe](https://github.com/Edgarkimbugwe) - Documentation <br>
+
+
+<!-- Please place your team member information here -->
+
+
+
+
+
+
+[Vernell Clark](https://github.com/VCGithubCode) - Scrum Lead and Project Presentation<br>
