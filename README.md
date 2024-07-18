@@ -140,6 +140,45 @@ Users gain easy access to information about safe and welcoming spaces, reducing 
 
 ## Methodology
 
+## Deployment
+
+### Heroku Deployment
+
+This application has been deployed to Heroku using the following steps:
+
+Placeholder
+
+### Local Deployment
+1. Clone the repository: `git clone https://github.com/VCGithubCode/prideful-programmers.git`
+2.  If you are using VSCode, activate your Virtual Environment:
+    - Windows: 
+    python -m venv venv
+    venv\Scripts\activate
+    - Mac/Linux: 
+    python3 -m venv venv
+    source venv/bin/activate
+3. Install dependencies: `pip install -r requirements.txt`
+4.  Create an env.py file in the root directory if there isn't one already. 
+5. Ensure to add the env.py file to your .gitignore file <u>before</u> commiting or pushing to GitHub to prevent credentials from being exposed. 
+6. Add `import.os` to the top of the env.py file. 
+7. Add your secret key, Cloudinary URL & database URL in this format: 
+<br>
+`os.environ.["SECRET_KEY] = "YOUR_SECRET_KEY"`
+<br>
+`os.environ.["CLOUDINARY_URL"] = "YOUR_URL"`
+<br>
+`os.environ.["DATABASE_URL] = "YOUR_URL"`
+8. Apply migrations: `python manage.py migrate`
+9. Run the developmment server: `python manage.py runserver`
+
+
+### Forking the repository
+
+1. Navigate to [prideful-programmers  GitHub repository](https://github.com/VCGithubCode/prideful-programmers?tab=readme-ov-file#Introduction).
+2. At the top right-hand corner of the page, click on "Fork".
+3. Rename or change the description if you wish.
+4. Click "Create Fork".
+5. A copy of the original repository should now appear on your GitHub account.
 
 
 ## Credits
