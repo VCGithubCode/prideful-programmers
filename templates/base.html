@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,6 +9,10 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <main>
+      {% block content %} 
+      {% endblock content %}
+    </main>
 	<script src="index.js"></script>
   </body>
 </html>
