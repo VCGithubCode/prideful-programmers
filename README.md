@@ -185,6 +185,8 @@ Placeholder
 
 ## Credits
 
+## Bugs
+
 
 
 ## Acknowledgements
