@@ -51,6 +51,10 @@ The project is deployed and can be accessed at [http://your-deployed-link.com](h
 
 
 ## Introduction
+Welcome to the Pride Programmers Safe Spaces Directory! This project aims to provide a comprehensive, user-friendly platform dedicated to helping the LGBTQIA+ community find and share safe spaces. Whether you're looking for a welcoming cafe, a supportive community center, or an inclusive club, our directory is designed to help you find places where you can feel safe, accepted, and celebrated. This Directory is built with the mission of fostering a supportive and inclusive environment for the LGBTQIA+ community. In many places around the world, finding safe and accepting spaces can be challenging. Our platform seeks to bridge this gap by offering a reliable resource where community members can discover, review, and share information about spaces that are welcoming and supportive.
+
+This directory includes a variety of spaces such as cafes, clubs, support centers, and more. Users can view detailed information about each space, read and write reviews. By empowering users to share their experiences and knowledge, we aim to create a vibrant, supportive network that enhances the well-being and connectedness of the LGBTQIA+ community.
+
 
 
 ## Criteria
@@ -82,7 +86,7 @@ One or two paragraphs providing an overview of our project
 
 
 ## Technologies Used
-
+(Bootstrap CSS, Lottiefiles animations Google Embedded maps etc...)
 
 ### Languages
 
