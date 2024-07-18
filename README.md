@@ -167,7 +167,9 @@ Placeholder
 <br>
 `os.environ.["CLOUDINARY_URL"] = "YOUR_URL"`
 <br>
-`os.environ.["DATABASE_URL] = "YOUR_URL"`
+`os.environ.["DATABASE_URL"] = "YOUR_URL"`
+<br>
+`os.environ.["DEV"] = "True"`
 8. Apply migrations: `python manage.py migrate`
 9. Run the developmment server: `python manage.py runserver`
 
