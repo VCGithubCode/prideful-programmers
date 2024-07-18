@@ -162,7 +162,7 @@ One or two paragraphs providing an overview of our project
 
 
 <!-- Please place your team member information here -->
-
+[Laura Kondrataite](https://github.com/laurakond/) - Content<br>
 
 
 
