@@ -13,7 +13,7 @@
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 </div>
 
-The project is deployed and can be accessed at [http://your-deployed-link.com](http://your-deployed-link.com)
+The project is deployed and can be accessed at [http://your-deployed-link.com](https://prideful-programmers-01c026806d6f.herokuapp.com/)
 
 ## Table of Content
 
