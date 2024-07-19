@@ -102,6 +102,31 @@ Users gain easy access to information about safe and welcoming spaces, reducing 
 
 ### Structure
 
+## Entity-Relationship Diagram (ERD) Design
+
+The Entity-Relationship Diagram (ERD) for our venue directory provides a structured representation of the relationships and attributes of the City and Venue entities. This design helps in organizing the data and understanding how different entities are interconnected within the system.
+
+![alt text](<documentation/images/ERD (Prideful Programmers).jpg>)
+
+## ERD for Venue Directory
+
+1. City
+    - <strong>city_id (Primary Key):</strong> A unique identifier for each city.
+    - <strong>city_name:</strong> The name of the city.
+    - <strong>country:</strong> The country where the city is located.
+
+2. Venue
+    - <strong>venue_id (Primary Key):</strong> A unique identifier for each venue.
+    - <strong>name:</strong> The name of the venue.
+    - <strong>address:</strong> The address of the venue.
+    - <strong>contact_info:</strong> The contact information for the venue.
+    - <strong>opening_hours:</strong> The hours during which the venue
+    - <strong>special_features:</strong> Any special features or amenities offered by the venue.
+    - <strong>category:</strong> The type of venue (Cafe, Support Center, Club).
+
+### Relationships
+- A City can have multiple Venues. This indicates that many venues can be loacated in one city.
+- Each Venue belongs to one City. This establishes that every venue is associated with a specific city.
 
 ### Wireframes
 
