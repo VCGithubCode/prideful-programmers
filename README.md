@@ -204,6 +204,8 @@ Placeholder
 
 ## Credits
 
+Special thanks to Sophie Flynn for creating our website Logo! You can read more about her work [here](https://www.strangehabitude.com/) or follow her on [Instagram](https://www.instagram.com/strangehabitude/). 
+
 ## Bugs
 
 
