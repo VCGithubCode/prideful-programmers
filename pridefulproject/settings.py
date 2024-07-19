@@ -29,9 +29,13 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'FALSE' in os.environ
+DEBUG = True
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '8000-vcgithubcod-pridefulpro-73btbsbtpve.ws.codeinstitute-ide.net', 'inclusive-spots-eeb5d9ac8ebf.herokuapp.com',
+=======
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '8000-vcgithubcod-pridefulpro-s8x8yd2no5h.ws.codeinstitute-ide.net', 'inclusive-spots-eeb5d9ac8ebf.herokuapp.com',
+>>>>>>> origin/my-feature-branch
 '8000-vcgithubcod-pridefulpro-8r1r6tqbp3s.ws-eu115.gitpod.io'
 ]
 

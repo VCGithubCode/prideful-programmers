@@ -105,13 +105,18 @@ Users gain easy access to information about safe and welcoming spaces, reducing 
 
 ### Wireframes
 
+<<<<<<< HEAD
 * I used [Balsamiq](https://balsamiq.com/wireframes) to design the wireframes for my website.
+=======
+* We Used [Balsamiq](https://balsamiq.com/wireframes) to design the wireframes for us  website.
+>>>>>>> origin/my-feature-branch
 
 #### Desktop:
 <details>
 
 ![Desktop Home page](/documents/images/home-page.png)
 
+<<<<<<< HEAD
 ![Desktop Cafe page](/documents/images/cafe-page.png)
 
 ![Desktop Support Centres page](/documents/images/support-centres-page.png)
@@ -122,6 +127,19 @@ Users gain easy access to information about safe and welcoming spaces, reducing 
 
 ![Desktop Sign In page](/documents/images/sign-in-page.png)
 
+=======
+![Desktop Home page](/documents/images/cafe-page.png)
+
+![Desktop Home page](/documents/images/support-centres-page.png)
+
+![Desktop Home page](/documents/images/club-page.png)
+
+![Desktop Home page](/documents/images/about-page.png)
+
+![Desktop Home page](/documents/images/sign-up-page.png)
+
+![Desktop Home page](/documents/images/sign-in-page.png)
+>>>>>>> origin/my-feature-branch
 </details>
 
 
