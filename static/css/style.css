@@ -1,0 +1,88 @@
+/* Defining Global CSS Variables */
+
+:root {
+  --primary-color: #6E2170; /* Finn */ 
+  --secondary-color: #01556b; /* Midnight Green */ 
+  --accent-color: #E09101; /* Harvest Gold */
+  --background-color: #E5E5E5; /* Platinum */
+  --dark-text: #050505; /* Black */
+  --light-text: #E5E5E5; /* Platinum */
+  --heading-color: #050505; /* Black */
+  --button-hover: #355FAA; /* Denim */
+
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Montserrat", sans-serif;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100dvh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--secondary-font);
+    font-weight: 500;
+}
+
+.font-weight-light {
+  color: var(--primary-color);
+}
+
+p {
+    color: var(--dark-text);
+}
+
+i {
+    font-size: 30px !important;
+    margin-right: 20px;
+}
+
+h2.card-title {
+  color: var(--primary-color)
+}
+
+nav .bg-dark .custom-navbar {
+  background-color: #6E2170;
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+    color: var(--light-text);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.custom-navbar .nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    text-underline-offset: 0.27em;
+    text-decoration-thickness: 0.2em;
+    font-weight: bolder;
+}
+
+a.nav-link:hover {
+    text-decoration-color: var(--accent-color);
+    color: var(--light-text);
+}
+
+a.btn {
+  background-color: var(--secondary-color);
+}
+
+a.btn:hover {
+  background-color: var(--button-hover);
+}
+
+/* Global Styles Ends */
