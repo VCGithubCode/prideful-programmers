@@ -105,6 +105,26 @@ Users gain easy access to information about safe and welcoming spaces, reducing 
 
 ### Wireframes
 
+* We Used [Balsamiq](https://balsamiq.com/wireframes) to design the wireframes for us  website.
+
+#### Desktop:
+<details>
+
+![Desktop Home page](/documents/images/home-page.png)
+
+![Desktop Home page](/documents/images/cafe-page.png)
+
+![Desktop Home page](/documents/images/support-centres-page.png)
+
+![Desktop Home page](/documents/images/club-page.png)
+
+![Desktop Home page](/documents/images/about-page.png)
+
+![Desktop Home page](/documents/images/sign-up-page.png)
+
+![Desktop Home page](/documents/images/sign-in-page.png)
+</details>
+
 
 
 
