@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inclusive Spots</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/css/style.css">
     <!-- Fontawesome - Script -->
     <script src="https://kit.fontawesome.com/c3c0f5e49e.js" crossorigin="anonymous">
     </script>
@@ -19,6 +19,9 @@
         crossorigin="anonymous">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{% static 'favicon/favicon.ico' %}">
+        {% block extra_css %}
+        {% endblock %}
+
   </head>
   <body>
     {% include 'includes/header.html' %}
