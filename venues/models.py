@@ -1,4 +1,5 @@
 from django.db import models
+from cloudinary.models import CloudinaryField
 
 CATEGORY = [
     ('Café', 'Café'),
@@ -26,6 +27,7 @@ class Venue(models.Model):
     category = models.CharField(
         choices=CATEGORY, max_length=50, null=False, blank=False)
     city = models.ForeignKey(City, on_delete=models.CASCADE)
+    image = CloudinaryField('image', default='placeholder')
 
     def __str__(self):
         return self.name
