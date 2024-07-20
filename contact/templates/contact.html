@@ -2,11 +2,23 @@
 {% block content %}
 
 {% load crispy_forms_tags %}
-<form method='POST'>
+<div class='container'>
+  <div class='row justify-content-center mt-3 mb-3'>
+    <div class='col-11 col-lg-6'>
+      <div class='container text-center'>
+        <h1 class='font-weight-light'>Contact Us</h1>
+        <hr>
+        <p>Have a question, a suggestion, or just want to say hello?</p>
+        <p class='mb-0'>Feel free to reach out to us.</p>
+      </div>
+<form method='POST' class='rounded'>
 {% csrf_token %} 
 {{ form | crispy }}
-<button type='submit' value='Save' class='btn btn-primary' aria-label='Save'>
+<button type='submit' value='Save' class='btn btn-primary mt-2' aria-label='Save'>
     Submit
   </button>
 </form>
+</div>
+  </div>
+</div>
 {% endblock %}
