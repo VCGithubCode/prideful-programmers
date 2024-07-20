@@ -106,7 +106,7 @@ Users gain easy access to information about safe and welcoming spaces, reducing 
 
 The Entity-Relationship Diagram (ERD) for our venue directory provides a structured representation of the relationships and attributes of the City and Venue entities. This design helps in organizing the data and understanding how different entities are interconnected within the system.
 
-![alt text](<documentation/images/ERD (Prideful Programmers).jpg>)
+![ERD](/documents/images/erd.jpg)
 
 ## ERD for Venue Directory
 
