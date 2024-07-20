@@ -37,6 +37,10 @@ h6 {
     font-weight: 500;
 }
 
+h2 {
+
+}
+
 .font-weight-light {
   color: var(--primary-color);
 }
@@ -116,4 +120,15 @@ div.card.text-white {
     font-size: 90%;
     letter-spacing: 0.3em;
     border-radius: 0.25rem;
+}
+
+.card.card-footer{
+  background-image: linear-gradient(140deg, #fcf6e6 0%, #06968578 15%, #6e2170c4 60%, #e09101bd 80%, #db1304eb 100%);
+}
+
+/* Media queries */
+@media (min-width: 1200px) {
+  .h2, h2 {
+    font-size: 1.7rem;
+  }
 }
