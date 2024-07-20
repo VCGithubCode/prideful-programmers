@@ -229,7 +229,9 @@ Placeholder
 
 ## Credits
 
-Special thanks to Sophie Flynn for creating our website Logo! You can read more about her work [here](https://www.strangehabitude.com/) or follow her on [Instagram](https://www.instagram.com/strangehabitude/). 
+Special thanks to Sophie Flynn for creating our website Logo! You can read more about her work [here](https://www.strangehabitude.com/) or follow her on [Instagram](https://www.instagram.com/strangehabitude/).
+
+We are using [Font Awesome](https://fontawesome.com/) for the icons throughout our website. Thank you to the Font Awesome team for their excellent work and for making these icons available to the community.
 
 ## Bugs
 
