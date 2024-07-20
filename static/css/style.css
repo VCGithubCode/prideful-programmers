@@ -75,6 +75,7 @@ a.nav-link:hover {
 
 a.btn {
   background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
 }
 
 a.btn:hover {
