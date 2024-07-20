@@ -133,3 +133,7 @@ div.card.text-white{
 .text-justify-custom {
   text-align: justify;
 }
+
+.about-us {
+  background: linear-gradient(to right, #6E2170, #01556b, #E09101, #E5E5E5, #050505, #355FAA);
+}
