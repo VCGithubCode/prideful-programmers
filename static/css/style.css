@@ -45,17 +45,6 @@ p {
     color: var(--dark-text);
 }
 
-p.text-white{
-  font-family: var(--accent-font);
-  font-weight: 700;
-  font-size: 70%;
-  letter-spacing: 0.75em;
-  background: #e5e5e5ea;
-  border-radius: 0.25rem;
-  width: max-content;
-  padding: 0 0.5rem
-}
-
 h2.card-title {
   color: var(--primary-color);
 }
@@ -112,13 +101,8 @@ button.navbar-toggler:focus {
 }
 
 div.bg-custom {
-  background: #ffffff url('https://images.unsplash.com/photo-1626199844140-b72d93057839?q=80&w=2108&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+  background: #ffffff url('/static/images/rainbow-watercolour.png') no-repeat center center fixed;
   background-size: cover;
-}
-
-
-div.card.text-white{
-  align-items: center;
 }
 
 .members{
@@ -132,4 +116,27 @@ div.card.text-white{
 
 .text-justify-custom {
   text-align: justify;
+
+div.card.text-white {
+  align-items: center;
+  color: var(--dark-text);
+}
+
+.custom-text {
+    color: var(--dark-text);
+    font-weight: 700;
+    font-size: 90%;
+    letter-spacing: 0.3em;
+    border-radius: 0.25rem;
+}
+
+div.card-footer.custom-footer {
+  background-image: linear-gradient(140deg, #fcf6e6 0%, #06968578 15%, #6e2170c4 60%, #e09101bd 80%, #db1304eb 100%);
+}
+
+/* Media queries */
+@media (min-width: 1200px) {
+  .h2, h2 {
+    font-size: 1.7rem;
+  }
 }
