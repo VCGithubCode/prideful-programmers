@@ -106,7 +106,7 @@ Users gain easy access to information about safe and welcoming spaces, reducing 
 
 The Entity-Relationship Diagram (ERD) for our venue directory provides a structured representation of the relationships and attributes of the City and Venue entities. This design helps in organizing the data and understanding how different entities are interconnected within the system.
 
-![alt text](<documentation/images/ERD (Prideful Programmers).jpg>)
+![ERD](/documents/images/erd.jpg)
 
 ## ERD for Venue Directory
 
@@ -129,6 +129,25 @@ The Entity-Relationship Diagram (ERD) for our venue directory provides a structu
 - Each Venue belongs to one City. This establishes that every venue is associated with a specific city.
 
 ### Wireframes
+
+* I used [Balsamiq](https://balsamiq.com/wireframes) to design the wireframes for my website.
+
+#### Desktop:
+<details>
+
+![Desktop Home page](/documents/images/home-page.png)
+
+![Desktop Cafe page](/documents/images/cafe-page.png)
+
+![Desktop Support Centres page](/documents/images/support-centres-page.png)
+
+![Desktop Clubs page](/documents/images/club-page.png)
+
+![Desktop Sign Up page](/documents/images/sign-up-page.png)
+
+![Desktop Sign In page](/documents/images/sign-in-page.png)
+
+</details>
 
 
 
@@ -209,6 +228,8 @@ Placeholder
 
 
 ## Credits
+
+Special thanks to Sophie Flynn for creating our website Logo! You can read more about her work [here](https://www.strangehabitude.com/) or follow her on [Instagram](https://www.instagram.com/strangehabitude/). 
 
 ## Bugs
 

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Page Content -->
+<section class="d-flex align-items-center min-vh-100 py-5">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-md-6 order-md-2">
+				<img class="img-fluid rounded mb-4 mb-lg-0"
+                src="https://images.pexels.com/photos/1173576/pexels-photo-1173576.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Hand holding a rainbow coloured wooden heart against a blue sky.">
+			</div>
+			<div class="col-md-6 text-center text-md-start ">
+				<div class="lc-block mb-3">
+					<div>
+						<h1 class="fw-bold h4">Opps! Internal Server Error!<br></h1>
+					</div>
+				</div>
+				<div class="lc-block mb-3">
+					<div>
+						<h1 class="display-1 fw-bold text-muted">Error 500</h1>
+					</div>
+				</div><!-- /lc-block -->
+				<div class="lc-block mb-5">
+					<div>
+						<p class="rfs-11 fw-light">Unfortunately we're having trouble loading the page.</p>
+                        <p class="rfs-11 fw-light">Please come back in a while.</p>
+					</div>
+				</div><!-- /lc-block -->
+				<div class="lc-block">
+					<a class="btn btn-lg btn-primary rounded-pill" href="{% url 'home' %}" role="button">Back to homepage</a>
+				</div><!-- /lc-block -->
+			</div><!-- /col -->
+		</div>
+	</div>
+</section>
+{% endblock %}
