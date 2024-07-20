@@ -48,6 +48,7 @@ p {
 p.text-white{
   font-family: var(--accent-font);
   font-weight: 700;
+  font-size: 70%;
   letter-spacing: 0.75em;
   background: #e5e5e5ea;
   border-radius: 0.25rem;
@@ -111,7 +112,7 @@ button.navbar-toggler:focus {
 }
 
 div.bg-custom {
-  background: #ffffff url('https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&w=1920') no-repeat center center fixed;
+  background: #ffffff url('https://images.unsplash.com/photo-1626199844140-b72d93057839?q=80&w=2108&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
   background-size: cover;
 }
 
