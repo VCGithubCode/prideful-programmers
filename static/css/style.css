@@ -101,7 +101,7 @@ button.navbar-toggler:focus {
 }
 
 div.bg-custom {
-  background: #ffffff url('/static/images/rainbow-watercolour.png') no-repeat center center fixed;
+  background: #ffffff url("../images/rainbow-watercolour.png") fixed;
   background-size: cover;
 }
 
