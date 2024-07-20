@@ -73,12 +73,14 @@ a.nav-link:hover {
     color: var(--light-text);
 }
 
-a.btn {
+a.btn, 
+button.btn {
   background-color: var(--secondary-color);
   border-color: var(--secondary-color);
 }
 
-a.btn:hover {
+a.btn:hover,
+button.btn:hover {
   background-color: var(--button-hover);
 }
 
