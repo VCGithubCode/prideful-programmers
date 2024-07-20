@@ -50,7 +50,6 @@ p.text-white{
   font-weight: 700;
   letter-spacing: 0.75em;
   background: #e5e5e5ea;
-  /* background: #e0dcdcea; */
   border-radius: 0.25rem;
   width: max-content;
   padding: 0 0.5rem
@@ -115,11 +114,6 @@ div.bg-secondary{
   background-image: url(https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&w=600);
   background-size: cover;
 }
-
-/* div.card.text-white>p{
-  justify-content: center;
-  align-items: center;
-} */
 
 div.card.text-white{
   align-items: center;
