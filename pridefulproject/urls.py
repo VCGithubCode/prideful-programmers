@@ -19,9 +19,10 @@ from home.views import custom_404, custom_500
 
 urlpatterns = [
     path('', include('home.urls'), name='home_urls'),
+    path('', include('venues.urls'), name='venue_urls'),
+    path('', include('contact.urls'), name='contact_urls'),
     path('admin/', admin.site.urls),
 ]
-
 
 # Custom error handlers
 handler404 = custom_404

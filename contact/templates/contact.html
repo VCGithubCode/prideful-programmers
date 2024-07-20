@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% load crispy_forms_tags %}
+<form method='POST'>
+{% csrf_token %} 
+{{ form | crispy }}
+<button type='submit' value='Save' class='btn btn-primary' aria-label='Save'>
+    Submit
+  </button>
+</form>
+{% endblock %}
