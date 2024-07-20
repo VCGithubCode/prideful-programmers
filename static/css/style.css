@@ -101,10 +101,8 @@ button.navbar-toggler:focus {
 }
 
 div.bg-custom {
-  background: #ffffff url('{% static "images/rainbow-watercolour.png" %}') no-repeat center center fixed;
+  background: #ffffff url("../images/rainbow-watercolour.png") fixed;
   background-size: cover;
-  width: 100%;
-  height: 100vh;
 }
 
 div.card.text-white {
