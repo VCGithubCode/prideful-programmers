@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.views import generic
 from .models import Venue
 
-class VenueList(generic.DetailView):
+class VenueList(generic.ListView):
      """
      Lists all venues
      """
