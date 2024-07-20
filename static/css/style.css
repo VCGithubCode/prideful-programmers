@@ -110,9 +110,12 @@ button.navbar-toggler:focus {
     box-shadow: 0 0 0 0.25rem var(--light-text);
 }
 
-div.bg-secondary{
-  background-image: url(https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&w=600);
+div.bg-custom {
+  background: #ffffff url(https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&w=600) fixed;
+  background-repeat: no-repeat;
   background-size: cover;
+  object-fit: scale-down;
+  width: 100%;
 }
 
 div.card.text-white{
