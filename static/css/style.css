@@ -10,9 +10,11 @@
   --light-text: #E5E5E5; /* Platinum */
   --heading-color: #050505; /* Black */
   --button-hover: #355FAA; /* Denim */
+  --navigation: #6010a6; /* Grape */
+
+    /* Fonts */
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
-  --accent-font: "Kalnia Glaze";
 }
 
 /* Global Styles */
@@ -25,6 +27,7 @@
 html,
 body {
     min-height: 100dvh;
+    padding-top: 26px;
 }
 
 h1,
@@ -50,7 +53,7 @@ h2.card-title {
 }
 
 .custom-navbar {
-  background-color: #6E2170;
+  background-color: var(--navigation);
 }
 
 .custom-navbar .nav-link,
@@ -103,17 +106,17 @@ button.navbar-toggler:focus {
 }
 
 div.bg-custom {
-  background: #ffffff url("../images/rainbow-watercolour.png") fixed;
+  background: var(--background-color) url("../images/rainbow-watercolour.png") fixed;
   background-size: cover;
 }
 
 .members{
-  color: #6E2170;
+  color: var(--primary-color);
   font-weight: 600;
 }
 
 .bg-card {
-  background-color: #E5E5E5;
+  background-color: var(--background-color);
 }
 
 .text-justify-custom {
@@ -137,15 +140,17 @@ div.card-footer.custom-footer {
   background-image: linear-gradient(140deg, #fcf6e6 0%, #06968578 15%, #6e2170c4 60%, #e09101bd 80%, #db1304eb 100%);
 }
 
-
 .about-us {
   background: linear-gradient(to right, #6E2170, #01556b, #E09101, #E5E5E5, #050505, #355FAA);
 }
-
 
 /* Media queries */
 @media (min-width: 1200px) {
   .h2, h2 {
     font-size: 1.7rem;
+  }
+  body {
+    min-height: 100dvh;
+    padding-top: 56px;
   }
 }
