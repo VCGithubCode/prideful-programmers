@@ -116,6 +116,20 @@ div.bg-custom {
   background-size: cover;
 }
 
+
 div.card.text-white{
   align-items: center;
+}
+
+.members{
+  color: #6E2170;
+  font-weight: 600;
+}
+
+.bg-card {
+  background-color: #E5E5E5;
+}
+
+.text-justify-custom {
+  text-align: justify;
 }
