@@ -111,11 +111,8 @@ button.navbar-toggler:focus {
 }
 
 div.bg-custom {
-  background: #ffffff url(https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&w=600) fixed;
-  background-repeat: no-repeat;
+  background: #ffffff url('https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&w=1920') no-repeat center center fixed;
   background-size: cover;
-  object-fit: scale-down;
-  width: 100%;
 }
 
 div.card.text-white{
