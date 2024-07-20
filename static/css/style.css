@@ -105,6 +105,18 @@ div.bg-custom {
   background-size: cover;
 }
 
+.members{
+  color: #6E2170;
+  font-weight: 600;
+}
+
+.bg-card {
+  background-color: #E5E5E5;
+}
+
+.text-justify-custom {
+  text-align: justify;
+
 div.card.text-white {
   align-items: center;
   color: var(--dark-text);
