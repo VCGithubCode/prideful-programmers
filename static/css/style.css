@@ -28,6 +28,10 @@ html,
 body {
     min-height: 100dvh;
     padding-top: 26px;
+    background: rgb(255,255,255);
+    background-image: linear-gradient(56deg, rgba(255,255,255,0.17288814841498557) 0%, rgba(126,170,212,0.17000630403458217) 10%, rgba(127,214,255,0.17000630403458217) 26%, rgba(208,170,253,0.16712445965417866) 42%, rgba(228,140,237,0.16712445965417866) 55%, rgba(236,126,196,0.16712445965417866) 69%, rgba(255,168,0,0.16712445965417866) 92%, rgba(255,0,0,0.16712445965417866) 100%),
+    url("../images/wavy-background.jpg");
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ff0000",GradientType=1);
 }
 
 h1,
@@ -78,13 +82,20 @@ a.nav-link:hover {
 
 a.btn, 
 button.btn {
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color) ;
   border-color: var(--secondary-color);
+  background-image: linear-gradient(to right, #2C3E50 0%, var(--secondary-color)  51%, #2C3E50  100%);
+  transition: 2s ease-in-out;
+  box-shadow: 0 0 20px #eee;
 }
 
 a.btn:hover,
 button.btn:hover {
   background-color: var(--button-hover);
+  border-color: var(--button-hover);
+  background-image: linear-gradient(to right, #2C3E50 0%, var(--button-hover)  51%, #2C3E50  100%);
+  background-position: right center; /* change the direction of the change here */
+  box-shadow: 0 0 40px #eee;
 }
 
 /* Style the Font Awesome hamburger icon */
