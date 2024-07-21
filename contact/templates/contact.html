@@ -1,24 +1,38 @@
-{% extends 'base.html' %}
-{% block content %}
+{% extends 'base.html' %} 
 
-{% load crispy_forms_tags %}
-<div class='container'>
-  <div class='row justify-content-center mt-3 mb-3'>
-    <div class='col-11 col-lg-6'>
-      <div class='container text-center'>
-        <h1 class='font-weight-light'>Contact Us</h1>
-        <hr>
-        <p>Have a question, a suggestion, or just want to say hello?</p>
-        <p class='mb-0'>Feel free to reach out to us.</p>
+{% block content %} 
+
+{% load crispy_forms_tags %} 
+
+<div class="container mt-3 min-vh-100">
+  <div class="about-us">
+    <div
+      class="container py-5 d-flex justify-content-center align-items-center"
+    >
+      <div>
+        <h1 class="fw-bold text-white">CONTACT US</h1>
       </div>
-<form method='POST' class='rounded'>
-{% csrf_token %} 
-{{ form | crispy }}
-<button type='submit' value='Save' class='btn btn-primary mt-2' aria-label='Save'>
-    Submit
-  </button>
-</form>
-</div>
+    </div>
+  </div>
+  <div class="text-center mt-2 p-4 pb-0 h3 rfs-11 fw-light">
+    <p class="lh-m">
+      Have a question, a suggestion, or just want to say hello?
+    </p>
+    <p class="lh-m">Feel free to reach out to us.</p>
+  </div>
+  <div class="container px-5 mx-2">
+  <form method="POST" class="rounded">
+    {% csrf_token %} {{ form | crispy }}
+    <button
+      type="submit"
+      value="Save"
+      class="btn btn-primary mt-2"
+      aria-label="Save"
+    >
+      Submit
+    </button>
+  </form>
   </div>
 </div>
+
 {% endblock %}
