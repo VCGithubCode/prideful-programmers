@@ -37,7 +37,7 @@ html,
 body {
   min-height: 100dvh;
   padding-top: 26px;
-  background: rgb(255, 255, 255);
+  background: var(--background-color);
   background-image: linear-gradient(56deg, rgba(255, 255, 255, 0.17288814841498557) 0%, rgba(126, 170, 212, 0.17000630403458217) 10%, rgba(127, 214, 255, 0.17000630403458217) 26%, rgba(208, 170, 253, 0.16712445965417866) 42%, rgba(228, 140, 237, 0.16712445965417866) 55%, rgba(236, 126, 196, 0.16712445965417866) 69%, rgba(255, 168, 0, 0.16712445965417866) 92%, rgba(255, 0, 0, 0.16712445965417866) 100%),
     url("../images/wavy-background.jpg");
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ff0000", GradientType=1);
@@ -95,7 +95,7 @@ button.btn {
   border-color: var(--secondary-color);
   background-image: linear-gradient(to right, #2C3E50 0%, var(--secondary-color) 51%, #2C3E50 100%);
   transition: 2s ease-in-out;
-  box-shadow: 0 0 20px #eee;
+  box-shadow: 0 0 1.2rem var(--background-color);
 }
 
 a.btn:hover,
@@ -104,8 +104,7 @@ button.btn:hover {
   border-color: var(--button-hover);
   background-image: linear-gradient(to right, #2C3E50 0%, var(--button-hover) 51%, #2C3E50 100%);
   background-position: right center;
-  /* change the direction of the change here */
-  box-shadow: 0 0 40px #eee;
+  box-shadow: 0 0 2.5rem var(--background-color);
 }
 
 /* Style the Font Awesome hamburger icon */
@@ -164,16 +163,30 @@ div.card-footer.custom-footer {
 .about-us {
   background: linear-gradient(to right, #6E2170, #01556b, #E09101, #E5E5E5, #050505, #355FAA);
 }
-
 /* Footer custom styles */
 
 .custom-footer-pt-4 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem 0;
 }
 
+.footer .custom-icon-gap,
+.footer .custom-icon-gap i {
+  transition: color 0.3s ease-in-out, margin 0.3s ease-in-out;
+}
+
+.footer .custom-icon-gap:hover,
+.footer .custom-icon-gap:hover i {
+  color: var(--light-text);
+}
+
+
+.footer .custom-icon-gap {
+  margin: 0 4rem;
+}
+
+/* General styles for icons in the footer */
 footer a i.fab {
-  padding: 3px;
+  padding: 0.25rem;
   color: var(--dark-text);
 }
 
@@ -181,36 +194,30 @@ footer a i:hover {
   color: var(--light-text);
 }
 
+/* Styles for icon buttons */
 a.btn.icon {
   background-color: var(--background-color);
-  border-color: var(--background-color);
+  border: 1px solid transparent;
   color: var(--dark-text);
   background-image: none;
-  transition: none;
   box-shadow: none;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 a.btn.icon:hover {
-  background-color: var(--button-hover);
-  border-color: var(--button-hover);
   background-image: linear-gradient(to right, #2C3E50 0%, var(--button-hover) 51%, #2C3E50 100%);
-  background-position: right center;
-  /* change the direction of the change here */
   box-shadow: 0 0 40px #eee;
+  border: 1px solid transparent;
 }
 
-.custom-gap {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+.custom-social-icons {
+  display: flex;
   justify-content: center;
-  gap: 1.25rem;
+  gap: 1.5rem;
 }
 
-.custom-socialicon-gap {
-  display: grid;
-}
-
-footer p {
+footer p,
+.custom-footer-text {
   color: var(--light-text);
 }
 
@@ -218,6 +225,7 @@ footer.text-center {
   background-color: var(--navigation);
 }
 
+/* Footer link styles */
 .custom-footer-text {
   color: var(--light-text);
   text-decoration: none;
@@ -230,7 +238,6 @@ footer.text-center {
   text-decoration-color: var(--accent-color);
   text-underline-offset: 0.27em;
   text-decoration-thickness: 0.2em;
-  font-weight: bolder;
   color: var(--light-text);
 }
 
