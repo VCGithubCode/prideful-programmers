@@ -1,30 +1,167 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
 
 <!-- Page Content -->
 <div class="container mt-3 min-vh-100">
-    <div class="container">
-        <img src="https://tinyurl.com/yc5z69ws" alt="Everyboy say love" class="w-100" height="500px">
-        <h1 class="mt-5">Who We Are</h1>
-        <p><strong>Inclusive Spots - is a dedicated app that curates a comprehensive 
-            list of safe spaces for the LGBTQIA+ community. </strong></p>
-        
-        <p>This platform provides easy access to LGBTQIA+ friendly cafes, clubs, 
-            bars, and support centers, ensuring that community members can find 
-            and enjoy welcoming and inclusive environments. </p>
+    <div class="about-us">
+        <div class="container py-5 d-flex justify-content-center align-items-center">
+            <div>
+                <h1 class="fw-bold text-white">WHO WE ARE</h1>
+            </div>        
+        </div>
+    </div>
 
-        <p>With detailed listings, interactive maps, and user reviews, Inclusive Spots 
-            creates a reliable resource that fosters connection, safety, and support for
-            LGBTQIA+ individuals everywhere. </p>
-
-        <p>We aspire to be the leading global resource for the LGBTQIA+ 
+    <div class="text-center mt-5 p-4 h3 rfs-11 fw-light">
+        <hr class="w-50 mx-auto mb-5">
+        <p class="lh-lg">
+            We aspire to be the leading global resource for the LGBTQIA+ 
             community, offering trusted, up-to-date information on safe spaces where 
-            every individual can feel accepted, respected, and celebrated. </p>
+            every individual can feel accepted, respected, and celebrated.
+        </p>
+        <hr class="w-50 mx-auto mt-5">
+    </div>
 
-        <p>Inclusive Spots envisions a world where LGBTQIA+ individuals can freely 
-            explore and engage with their communities without fear, knowing they have 
-            access to safe, inclusive, and supportive environments.</p>
-      </div>
+    <h2 class="mb-4 text-center members"><strong>Invisible Spots Team Members</strong></h2>
+
+
+    
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-3 p-3">
+            <div class="col">
+                <div class="card bg-card p-2 h-100">
+                    <img class="card-img-top rounded-circle img-fluid w-50 mx-auto d-block" 
+                        src="{% static 'images\aoife.png' %}" alt="Aoife image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold members">Aoife</h5>
+                        <p class="card-text text-justify-custom">Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit. Fusce laoreet mi sed risus tincidunt sagittis. Aenean a risus 
+                            ex. Integer non ultrices felis. Cras vel massa in ipsum mattis efficitur. 
+                            Curabitur vitae rhoncus magna. Suspendisse ullamcorper gravida elementum. 
+                            Vestibulum ut pellentesque sem. Aenean bibendum maximus velit. Proin eu augue 
+                            vel ex aliquam fermentum a eu turpis. Maecenas laoreet, sem id posuere condimentum, 
+                            risus velit rutrum mauris, quis.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://www.linkedin.com/in/aoife-kirby-0b4040180/" target="_blank"
+                        aria-label="Aoife's LinkedIn"><i class="fab fa-linkedin fa-2x" style="color: #355FAA"></i></a>
+                        <a href="https://github.com/akirby23" target="_blank" aria-label="Aoife's GitHub"><i
+                        class="fab fa-github fa-2x" style="color: #355FAA"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-card p-2 h-100">
+                    <img class="card-img-top rounded-circle img-fluid w-50 mx-auto d-block" 
+                        src="{% static 'images\ciaran.jpg' %}" alt="Ciaran image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold members">Ciaran</h5>
+                        <p class="card-text text-justify-custom">Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit. Fusce laoreet mi sed risus tincidunt sagittis. Aenean a risus 
+                            ex. Integer non ultrices felis. Cras vel massa in ipsum mattis efficitur. 
+                            Curabitur vitae rhoncus magna. Suspendisse ullamcorper gravida elementum. 
+                            Vestibulum ut pellentesque sem. Aenean bibendum maximus velit. Proin eu augue 
+                            vel ex aliquam fermentum a eu turpis. Maecenas laoreet, sem id posuere condimentum, 
+                            risus velit rutrum mauris, quis.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://www.linkedin.com/in/ciaran-griffin-2534622a5/" target="_blank"
+                        aria-label="Ciaran's LinkedIn"><i class="fab fa-linkedin fa-2x" style="color: #355FAA"></i></a>
+                        <a href="https://github.com/ciarangriffin93" target="_blank" aria-label="Ciaran's GitHub"><i
+                        class="fab fa-github fa-2x" style="color: #355FAA"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-card p-2 h-100">
+                    <img class="card-img-top rounded-circle img-fluid w-50 mx-auto d-block" 
+                        src="{% static 'images\david.png' %}" alt="Davidimage">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold members">David</h5>
+                        <p class="card-text text-justify-custom">Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit. Fusce laoreet mi sed risus tincidunt sagittis. Aenean a risus 
+                            ex. Integer non ultrices felis. Cras vel massa in ipsum mattis efficitur. 
+                            Curabitur vitae rhoncus magna. Suspendisse ullamcorper gravida elementum. 
+                            Vestibulum ut pellentesque sem. Aenean bibendum maximus velit. Proin eu augue 
+                            vel ex aliquam fermentum a eu turpis. Maecenas laoreet, sem id posuere condimentum, 
+                            risus velit rutrum mauris, quis.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://www.linkedin.com/in/david-cotter-3a4aba80/" target="_blank"
+                        aria-label="David's LinkedIn"><i class="fab fa-linkedin fa-2x" style="color: #355FAA"></i></a>
+                        <a href="https://github.com/trxdave" target="_blank" aria-label="David's GitHub"><i
+                        class="fab fa-github fa-2x" style="color: #355FAA"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-3 mb-4 p-3">
+            <div class="col">
+                <div class="card bg-card p-2 h-100">
+                    <img class="card-img-top rounded-circle img-fluid w-50 mx-auto d-block"
+                        src="{% static 'images\edgar.jpg' %}" alt="edgar image">
+                    <div class="card-body text-center">
+                        <h4 class="card-title fw-bold members">Edgar</h4>
+                        <p class="card-text text-justify-custom">With a background in social sciences, I have transitioned 
+                            into the dynamic world of software, where my focus is on harnessing technology 
+                            to address challenges faced by underserved communities. My journey into tech has 
+                            been both exhilarating and demanding, but the opportunity to learn and innovate 
+                            continuously drives me. Passionate about exploring new solutions, I am committed 
+                            to leveraging technology to create meaningful impact and improve lives.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://www.linkedin.com/in/edgarkimbugwe/" target="_blank"
+                        aria-label="Edgar's LinkedIn"><i class="fab fa-linkedin fa-2x" style="color: #355FAA"></i></a>
+                        <a href="https://github.com/Edgarkimbugwe" target="_blank" aria-label="Edgar's GitHub"><i
+                        class="fab fa-github fa-2x" style="color: #355FAA"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-card p-2 h-100">
+                    <img class="card-img-top rounded-circle img-fluid w-50 mx-auto d-block" 
+                        src="{% static 'images\laura.png' %}" alt="Laura image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold members">Laura</h5>
+                        <p class="card-text text-justify-custom">Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit. Fusce laoreet mi sed risus tincidunt sagittis. Aenean a risus 
+                            ex. Integer non ultrices felis. Cras vel massa in ipsum mattis efficitur. 
+                            Curabitur vitae rhoncus magna. Suspendisse ullamcorper gravida elementum. 
+                            Vestibulum ut pellentesque sem. Aenean bibendum maximus velit. Proin eu augue 
+                            vel ex aliquam fermentum a eu turpis. Maecenas laoreet, sem id posuere condimentum, 
+                            risus velit rutrum mauris, quis.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://www.linkedin.com/in/laurakondrataite/" target="_blank"
+                        aria-label="Laura's LinkedIn"><i class="fab fa-linkedin fa-2x" style="color: #355FAA"></i></a>
+                        <a href="https://github.com/Edgarkimbugwe" target="_blank" aria-label="Edgar's GitHub"><i
+                        class="fab fa-github fa-2x" style="color: #355FAA"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-card p-2 h-100">
+                    <img class="card-img-top rounded-circle img-fluid w-50 mx-auto d-block"
+                        src="{% static 'images\vernell.jpg' %}" alt="Vernell image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold members">Vernell</h5>
+                        <p class="card-text text-start">A lifelong learner, drawing from a varied skill set in systems integration, low-voltage electrical interfaces, telecommunications, audio, and data systems, stepping into the world of development to help businesses reach their target customers and communicate with them more effectively.
+
+Interested in connecting with anyone that coaches, mentors, supports, or helps to inspire engineers, at any level.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://www.linkedin.com/in/vernellclark/" target="_blank"
+                        aria-label="Vernell's LinkedIn"><i class="fab fa-linkedin fa-2x" style="color: #355FAA"></i></a>
+                        <a href="https://github.com/VCGithubCode/" target="_blank" aria-label="Vernell's GitHub"><i
+                        class="fab fa-github fa-2x" style="color: #355FAA"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
 </div>
 

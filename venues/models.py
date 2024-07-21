@@ -1,6 +1,7 @@
 from django.db import models
 from cloudinary.models import CloudinaryField
 
+
 CATEGORY = [
     ('Café', 'Café'),
     ('Club', 'Club'),

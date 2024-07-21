@@ -1,7 +1,7 @@
 {% load static %}
 
 <header>
-<nav class="navbar navbar-expand-lg custom-navbar" style="background-color: #6010a6;">
+<nav class="navbar fixed-top navbar-expand-lg custom-navbar">
     <div class="container-fluid px-5">
         <a class="navbar-brand" href="{% url 'home' %}">
             <img class="me-3" src="{% static 'images/white-logo.png' %}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">Inclusive Spots
@@ -15,13 +15,13 @@
                     <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#!">Venues</a>
+                    <a class="nav-link" href="{% url 'venue_list' %}">Venues</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'about' %}">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#!">Contact</a>
+                    <a class="nav-link" href="{% url 'contact' %}">Contact</a>
                 </li>
             </ul>
         </div>
