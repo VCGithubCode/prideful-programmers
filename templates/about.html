@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
 
 <!-- Page Content -->
@@ -31,7 +32,7 @@
             <div class="col">
                 <div class="card bg-card p-2 h-100">
                     <img class="card-img-top rounded-circle img-fluid w-50 mx-auto d-block" 
-                        src="/static/images/aoife.png" alt="Aoife image">
+                        src="{% static 'images\aoife.png' %}" alt="Aoife image">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold members">Aoife</h5>
                         <p class="card-text text-justify-custom">Lorem ipsum dolor sit amet, consectetur 
@@ -53,7 +54,7 @@
             <div class="col">
                 <div class="card bg-card p-2 h-100">
                     <img class="card-img-top rounded-circle img-fluid w-50 mx-auto d-block" 
-                        src="/static/images/ciaran.jpg" alt="Ciaran image">
+                        src="{% static 'images\ciaran.jpg' %}" alt="Ciaran image">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold members">Ciaran</h5>
                         <p class="card-text text-justify-custom">Lorem ipsum dolor sit amet, consectetur 
@@ -75,7 +76,7 @@
             <div class="col">
                 <div class="card bg-card p-2 h-100">
                     <img class="card-img-top rounded-circle img-fluid w-50 mx-auto d-block" 
-                        src="/static/images/david.png" alt="Davidimage">
+                        src="{% static 'images\david.png' %}" alt="Davidimage">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold members">David</h5>
                         <p class="card-text text-justify-custom">Lorem ipsum dolor sit amet, consectetur 
@@ -100,7 +101,7 @@
             <div class="col">
                 <div class="card bg-card p-2 h-100">
                     <img class="card-img-top rounded-circle img-fluid w-50 mx-auto d-block"
-                        src="/static/images/edgar.jpg" alt="edgar image">
+                        src="{% static 'images\edgar.jpg' %}" alt="edgar image">
                     <div class="card-body text-center">
                         <h4 class="card-title fw-bold members">Edgar</h4>
                         <p class="card-text text-justify-custom">With a background in social sciences, I have transitioned 
@@ -121,7 +122,7 @@
             <div class="col">
                 <div class="card bg-card p-2 h-100">
                     <img class="card-img-top rounded-circle img-fluid w-50 mx-auto d-block" 
-                        src="/static/images/laura.png" alt="Laura image">
+                        src="{% static 'images\laura.png' %}" alt="Laura image">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold members">Laura</h5>
                         <p class="card-text text-justify-custom">Lorem ipsum dolor sit amet, consectetur 
@@ -143,7 +144,7 @@
             <div class="col">
                 <div class="card bg-card p-2 h-100">
                     <img class="card-img-top rounded-circle img-fluid w-50 mx-auto d-block"
-                        src="/static/images/vernell.jpg" alt="Vernell image">
+                        src="{% static 'images\vernell.jpg' %}" alt="Vernell image">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold members">Vernell</h5>
                         <p class="card-text text-start">A lifelong learner, drawing from a varied skill set in systems integration, low-voltage electrical interfaces, telecommunications, audio, and data systems, stepping into the world of development to help businesses reach their target customers and communicate with them more effectively.
