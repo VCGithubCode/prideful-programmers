@@ -91,7 +91,7 @@ a.nav-link:hover {
 
 a.btn,
 button.btn {
-  background-color: var(--secondary-color) ;
+  background-color: var(--secondary-color);
   border-color: var(--secondary-color);
   background-image: linear-gradient(to right, #2C3E50 0%, var(--secondary-color) 51%, #2C3E50 100%);
   transition: 2s ease-in-out;
@@ -172,14 +172,31 @@ div.card-footer.custom-footer {
   padding-bottom: 0.5rem;
 }
 
-footer a i {
+footer a i.fab {
+  padding: 3px;
   color: var(--dark-text);
 }
 
-footer section a.btn {
+footer a i:hover {
+  color: var(--light-text);
+}
+
+a.btn.icon {
   background-color: var(--background-color);
   border-color: var(--background-color);
   color: var(--dark-text);
+  background-image: none;
+  transition: none;
+  box-shadow: none;
+}
+
+a.btn.icon:hover {
+  background-color: var(--button-hover);
+  border-color: var(--button-hover);
+  background-image: linear-gradient(to right, #2C3E50 0%, var(--button-hover) 51%, #2C3E50 100%);
+  background-position: right center;
+  /* change the direction of the change here */
+  box-shadow: 0 0 40px #eee;
 }
 
 .custom-gap {
