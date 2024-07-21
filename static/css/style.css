@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 /* Defining Global CSS Variables */
 :root {
   --primary-color: #6E2170;
@@ -38,8 +37,7 @@ body {
   min-height: 100dvh;
   padding-top: 26px;
   background: var(--background-color);
-  background-image: linear-gradient(56deg, rgba(255, 255, 255, 0.17288814841498557) 0%, rgba(126, 170, 212, 0.17000630403458217) 10%, rgba(127, 214, 255, 0.17000630403458217) 26%, rgba(208, 170, 253, 0.16712445965417866) 42%, rgba(228, 140, 237, 0.16712445965417866) 55%, rgba(236, 126, 196, 0.16712445965417866) 69%, rgba(255, 168, 0, 0.16712445965417866) 92%, rgba(255, 0, 0, 0.16712445965417866) 100%),
-    url("../images/wavy-background.jpg");
+  background-image: linear-gradient(56deg, rgba(255, 255, 255, 0.17288814841498557) 0%, rgba(126, 170, 212, 0.17000630403458217) 10%, rgba(127, 214, 255, 0.17000630403458217) 26%, rgba(208, 170, 253, 0.16712445965417866) 42%, rgba(228, 140, 237, 0.16712445965417866) 55%, rgba(236, 126, 196, 0.16712445965417866) 69%, rgba(255, 168, 0, 0.16712445965417866) 92%, rgba(255, 0, 0, 0.16712445965417866) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ff0000", GradientType=1);
 }
 
@@ -126,7 +124,7 @@ button.navbar-toggler:focus {
 }
 
 div.bg-custom {
-  background: var(--background-color) url("../images/rainbow-watercolour.png") fixed;
+  background: var(--background-color) url('/static/images/rainbow-watercolour.png') fixed;
   background-size: cover;
 }
 
