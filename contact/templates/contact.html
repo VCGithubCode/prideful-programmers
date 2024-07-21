@@ -4,6 +4,22 @@
 
 {% load crispy_forms_tags %} 
 
+{% block extra_head %}
+<!-- EmailJS 
+ https://www.emailjs.com/docs/sdk/installation/ -->
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+></script>
+<script type="text/javascript">
+  (function () {
+    emailjs.init({
+      publicKey: "Y8US0osIasAsRJmPL",
+    });
+  })();
+</script>
+{% endblock %}
+
 <div class="container mt-3 min-vh-100">
   <div class="about-us">
     <div
@@ -21,18 +37,38 @@
     <p class="lh-m">Feel free to reach out to us.</p>
   </div>
   <div class="container px-5 mx-2">
-  <form method="POST" class="rounded">
-    {% csrf_token %} {{ form | crispy }}
-    <button
-      type="submit"
-      value="Save"
-      class="btn btn-primary mt-2"
-      aria-label="Save"
-    >
-      Submit
-    </button>
-  </form>
+    <form method="POST" class="rounded" id="contact-us">
+      {% csrf_token %} {{ form | crispy }}
+      <button
+        type="submit"
+        value="Save"
+        class="btn btn-primary mt-2"
+        aria-label="Save"
+      >
+        Submit
+      </button>
+    </form>
   </div>
 </div>
+
+<!-- EmailJS -->
+<script type="text/javascript">
+  window.onload = function () {
+    document
+      .getElementById("contact-us")
+      .addEventListener("submit", function (event) {
+        event.preventDefault();
+        const form = this;
+        emailjs.sendForm("service_b7q74bd", "template_nujvqte", this).then(
+          () => {
+            form.submit();
+          },
+          (error) => {
+            console.log("FAILED:", error);
+          }
+        );
+      });
+  };
+</script>
 
 {% endblock %}
