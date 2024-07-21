@@ -11,7 +11,7 @@ class VenueList(generic.ListView):
      model = Venue
      template_name = 'venue_list.html'
      
-     def get_queryset(self) -> QuerySet[Any]:
+     def get_queryset(self):
           return Venue.objects.all()
      
      def get_context(self, **kwargs):
