@@ -124,7 +124,7 @@ button.navbar-toggler:focus {
 }
 
 div.bg-custom {
-  background: var(--background-color) url('/static/images/rainbow-watercolour.png') fixed;
+  background: var(--background-color) url('https://img.freepik.com/premium-photo/there-is-picture-colorful-background-with-watercolor-effect-generative-ai_791316-87013.jpg') fixed center;
   background-size: cover;
 }
 
