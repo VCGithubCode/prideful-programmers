@@ -2,13 +2,21 @@
 
 {% block content %} 
 
+{% block extra_head %}
+    <script>
+      setTimeout(function() {
+        window.location.href = "{% url 'home' %}"
+      }, 5000);
+    </script>
+{% endblock %}
+
 <div class="container mt-3">
         <div class="about-us">
           <div
             class="container py-5 d-flex justify-content-center align-items-center"
           >
             <div>
-              <h1 class="fw-bold text-white">THANK YOU</h1>
+              <h1 class="fw-bold text-white">THANK YOU!</h1>
             </div>
           </div>
         </div>
@@ -17,7 +25,8 @@
           <p class="lh-m">
             Your message has been received.
           </p>
-          <p class="lh-m mb-4">Please allow 1-2 working days for a response.</p>
+          <p class="lh-m">Please allow 1-2 working days for a response.</p>
+          <a class="btn btn-primary btn-sm mb-2" href="{% url 'home' %}" aria-labels="Link to Home page"><i class="fa-solid fa-house"></i> Return to the Home Page</a>
           <hr class="w-50 mx-auto mt-2">
             <img class="img-fluid rounded mb-4 mb-lg-0"
                 src="https://images.pexels.com/photos/1173576/pexels-photo-1173576.jpeg?auto=compress&cs=tinysrgb&w=600"
