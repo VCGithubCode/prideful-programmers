@@ -29,6 +29,7 @@ class Venue(models.Model):
         choices=CATEGORY, max_length=50, null=False, blank=False)
     city = models.ForeignKey(City, on_delete=models.CASCADE)
     image = CloudinaryField('image', default='placeholder')
+    website = models.URLField(max_length=200)
 
     def __str__(self):
         return self.name
