@@ -130,12 +130,16 @@ The Entity-Relationship Diagram (ERD) for our venue directory provides a structu
 
 ### Wireframes
 
-* I used [Balsamiq](https://balsamiq.com/wireframes) to design the wireframes for my website.
+* We used [Balsamiq](https://balsamiq.com/wireframes) to design the wireframes for us website.
 
 #### Desktop:
 <details>
 
 ![Desktop Home page](/documents/images/home-page.png)
+
+![Desktop About page](/documents/images/about-page.png)
+
+![Desktop Contact page](/documents/images/contact-page.png)
 
 ![Desktop Cafe page](/documents/images/cafe-page.png)
 
