@@ -2,36 +2,45 @@
 
 /* Defining Global CSS Variables */
 :root {
-  --primary-color: #6E2170; /* Finn */ 
-  --secondary-color: #01556b; /* Midnight Green */ 
-  --accent-color: #E09101; /* Harvest Gold */
-  --background-color: #E5E5E5; /* Platinum */
-  --dark-text: #050505; /* Black */
-  --light-text: #E5E5E5; /* Platinum */
-  --heading-color: #050505; /* Black */
-  --button-hover: #355FAA; /* Denim */
-  --navigation: #6010a6; /* Grape */
+  --primary-color: #6E2170;
+  /* Finn */
+  --secondary-color: #01556b;
+  /* Midnight Green */
+  --accent-color: #E09101;
+  /* Harvest Gold */
+  --background-color: #E5E5E5;
+  /* Platinum */
+  --dark-text: #050505;
+  /* Black */
+  --light-text: #E5E5E5;
+  /* Platinum */
+  --heading-color: #050505;
+  /* Black */
+  --button-hover: #355FAA;
+  /* Denim */
+  --navigation: #6010a6;
+  /* Grape */
 
-    /* Fonts */
+  /* Fonts */
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
 }
 
 /* Global Styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    min-height: 100dvh;
-    padding-top: 26px;
-    background: rgb(255,255,255);
-    background-image: linear-gradient(56deg, rgba(255,255,255,0.17288814841498557) 0%, rgba(126,170,212,0.17000630403458217) 10%, rgba(127,214,255,0.17000630403458217) 26%, rgba(208,170,253,0.16712445965417866) 42%, rgba(228,140,237,0.16712445965417866) 55%, rgba(236,126,196,0.16712445965417866) 69%, rgba(255,168,0,0.16712445965417866) 92%, rgba(255,0,0,0.16712445965417866) 100%),
+  min-height: 100dvh;
+  padding-top: 26px;
+  background: rgb(255, 255, 255);
+  background-image: linear-gradient(56deg, rgba(255, 255, 255, 0.17288814841498557) 0%, rgba(126, 170, 212, 0.17000630403458217) 10%, rgba(127, 214, 255, 0.17000630403458217) 26%, rgba(208, 170, 253, 0.16712445965417866) 42%, rgba(228, 140, 237, 0.16712445965417866) 55%, rgba(236, 126, 196, 0.16712445965417866) 69%, rgba(255, 168, 0, 0.16712445965417866) 92%, rgba(255, 0, 0, 0.16712445965417866) 100%),
     url("../images/wavy-background.jpg");
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ff0000",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ff0000", GradientType=1);
 }
 
 h1,
@@ -40,8 +49,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--secondary-font);
-    font-weight: 500;
+  font-family: var(--secondary-font);
+  font-weight: 500;
 }
 
 .font-weight-light {
@@ -49,7 +58,7 @@ h6 {
 }
 
 p {
-    color: var(--dark-text);
+  color: var(--dark-text);
 }
 
 h2.card-title {
@@ -62,29 +71,29 @@ h2.card-title {
 
 .custom-navbar .nav-link,
 .custom-navbar .navbar-brand {
-    color: var(--light-text);
-    text-decoration: none;
-    font-weight: bolder;
+  color: var(--light-text);
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 .custom-navbar .nav-link:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--accent-color);
-    text-underline-offset: 0.27em;
-    text-decoration-thickness: 0.2em;
-    font-weight: bolder;
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+  text-underline-offset: 0.27em;
+  text-decoration-thickness: 0.2em;
+  font-weight: bolder;
 }
 
 a.nav-link:hover {
-    text-decoration-color: var(--accent-color);
-    color: var(--light-text);
+  text-decoration-color: var(--accent-color);
+  color: var(--light-text);
 }
 
-a.btn, 
+a.btn,
 button.btn {
   background-color: var(--secondary-color) ;
   border-color: var(--secondary-color);
-  background-image: linear-gradient(to right, #2C3E50 0%, var(--secondary-color)  51%, #2C3E50  100%);
+  background-image: linear-gradient(to right, #2C3E50 0%, var(--secondary-color) 51%, #2C3E50 100%);
   transition: 2s ease-in-out;
   box-shadow: 0 0 20px #eee;
 }
@@ -93,27 +102,28 @@ a.btn:hover,
 button.btn:hover {
   background-color: var(--button-hover);
   border-color: var(--button-hover);
-  background-image: linear-gradient(to right, #2C3E50 0%, var(--button-hover)  51%, #2C3E50  100%);
-  background-position: right center; /* change the direction of the change here */
+  background-image: linear-gradient(to right, #2C3E50 0%, var(--button-hover) 51%, #2C3E50 100%);
+  background-position: right center;
+  /* change the direction of the change here */
   box-shadow: 0 0 40px #eee;
 }
 
 /* Style the Font Awesome hamburger icon */
 .navbar-toggler {
-    border: none;
-    outline: none;
+  border: none;
+  outline: none;
 }
 
 .navbar-toggler i {
-    color: var(--light-text);
-    font-size: 1.5em;
+  color: var(--light-text);
+  font-size: 1.5em;
 }
 
 /* Override Bootstrap focus state box-shadow */
 button.navbar-toggler:focus {
-    text-decoration: none;
-    outline: 0;
-    box-shadow: 0 0 0 0.25rem var(--light-text);
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem var(--light-text);
 }
 
 div.bg-custom {
@@ -121,7 +131,7 @@ div.bg-custom {
   background-size: cover;
 }
 
-.members{
+.members {
   color: var(--primary-color);
   font-weight: 600;
 }
@@ -140,11 +150,11 @@ div.card.text-white {
 }
 
 .custom-text {
-    color: var(--dark-text);
-    font-weight: 700;
-    font-size: 90%;
-    letter-spacing: 0.3em;
-    border-radius: 0.25rem;
+  color: var(--dark-text);
+  font-weight: 700;
+  font-size: 90%;
+  letter-spacing: 0.3em;
+  border-radius: 0.25rem;
 }
 
 div.card-footer.custom-footer {
@@ -155,11 +165,66 @@ div.card-footer.custom-footer {
   background: linear-gradient(to right, #6E2170, #01556b, #E09101, #E5E5E5, #050505, #355FAA);
 }
 
+/* Footer custom styles */
+
+.custom-footer-pt-4 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+footer a i {
+  color: var(--dark-text);
+}
+
+footer section a.btn {
+  background-color: var(--background-color);
+  border-color: var(--background-color);
+  color: var(--dark-text);
+}
+
+.custom-gap {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.custom-socialicon-gap {
+  display: grid;
+}
+
+footer p {
+  color: var(--light-text);
+}
+
+footer.text-center {
+  background-color: var(--navigation);
+}
+
+.custom-footer-text {
+  color: var(--light-text);
+  text-decoration: none;
+  font-weight: bolder;
+  line-height: 2em;
+}
+
+.custom-footer-text:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+  text-underline-offset: 0.27em;
+  text-decoration-thickness: 0.2em;
+  font-weight: bolder;
+  color: var(--light-text);
+}
+
 /* Media queries */
 @media (min-width: 1200px) {
-  .h2, h2 {
+
+  .h2,
+  h2 {
     font-size: 1.7rem;
   }
+
   body {
     min-height: 100dvh;
     padding-top: 56px;

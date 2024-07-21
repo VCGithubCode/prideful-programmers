@@ -1,66 +1,35 @@
 {% load static %}
 <!-- Footer -->
-<footer class="text-center bg-body-tertiary", style="background-color: #e5e5e5;">
-  <!-- Grid container -->
-  <div class="container pt-4">
-      <!-- Section: Social media -->
-      <section class="mb-2">
-          <!-- Github -->
-          <a
-              data-mdb-ripple-init
-              class="btn btn-floating text-white m-1"
-              href="https://github.com/VCGithubCode/prideful-programmers"
-              target="_blank"
-              role="button"
-              style="background-color: #333333;"
-              ><i class="fab fa-github"></i
-          ></a>
+<footer class="text-center bg-body-tertiary">
+    <!-- Grid container -->
+    <div class="container custom-footer-pt-4">
+                <!-- Copyright -->
+                <div class="text-center mt-0">
+                    <a class="custom-footer-text" href="{% url 'home' %}">Inclusive Spots</a>
+                    <p class="mb-0">Project created for Code Institute's July 2024 Hackathon</p>
+                    <p class="mb-0">For educational purposes only</p>
+                </div>
+                <!-- Copyright -->
+        <!-- Section: Social media -->
+        <section class="custom-gap mb-0 mt-1">
+            <!-- Github -->
+            <a data-mdb-ripple-init class="custom-socialicon-gap btn btn-floating text-white m-1 ms-1"
+                href="https://github.com/VCGithubCode/prideful-programmers" target="_blank" role="button"><i
+                    class="fab fa-github"></i></a>
 
-          <!-- Facebook -->
-          <a
-              data-mdb-ripple-init
-              class="btn btn-floating text-body m-1"            
-              href="https://www.facebook.com/"
-              target="_blank"
-              role="button"
-              style="background-color: #55acee;"
-              ><i class="fab fa-facebook-f"></i
-          ></a>
+            <!-- Facebook -->
+            <a data-mdb-ripple-init class="custom-socialicon-gap btn btn-floating text-body m-1 ms-1" href="https://www.facebook.com/"
+                target="_blank" role="button"><i class="fab fa-facebook-f"></i></a>
 
-          <!-- Instagram -->
-          <a
-              data-mdb-ripple-init
-              class="btn btn-floating text-body m-1"            
-              href="https://www.instagram.com/"
-              target="_blank"
-              role="button"
-              style="background-color: #ac2bac;"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-instagram"></i
-          ></a>
+            <!-- Instagram -->
+            <a data-mdb-ripple-init class="custom-socialicon-gap btn btn-floating text-body m-1 ms-1" href="https://www.instagram.com/"
+                target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
 
-          <!-- Twitter -->
-          <a
-              data-mdb-ripple-init
-              class="btn btn-floating text-body m-1"            
-              href="https://twitter.com/"
-              target="_blank"
-              role="button"
-              style="background-color: #55acee;"
-              data-mdb-ripple-color="dark"
-              ><i class="fab fa-twitter"></i
-          ></a>          
-      </section>
-      <!-- Section: Social media -->
-  </div>
-  <!-- Grid container -->
-  <hr class="w-75 mx-auto">
-  <!-- Copyright -->
-  <div class="text-center mt-0">
-    <a class="text-body" href="{% url 'home' %}">Inclusive Spots</a>
-    <p class="mb-0">Project created as part of Code Institute's July 2024 Hackathon participation</p>
-    <p class="mb-0">For educational purposes only</p>
-  </div>
-  <!-- Copyright -->
+            <!-- Twitter -->
+            <a data-mdb-ripple-init class="custom-socialicon-gap btn btn-floating text-body m-1 ms-1" href="https://twitter.com/" target="_blank"
+                role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+        </section>
+        <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
 </footer>
-  
