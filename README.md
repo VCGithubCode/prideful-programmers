@@ -29,7 +29,7 @@ The project is deployed and can be accessed at [http://your-deployed-link.com](h
     2. [xxx App](#xxx-app)
 5. [Design](#design)
     1. [Design Choices](#design-choices)
-    2. [Colour](#colours)
+    2. [Colour](#colour)
     3. [Fonts](#fonts)
     4. [Structure](#structure)
     5. [Wireframes](#wireframes)
@@ -96,6 +96,9 @@ Users gain easy access to information about safe and welcoming spaces, reducing 
 
 ### Colour
 
+We used the following colour palette:
+
+![colour-palette](documents/images/color-palette.jpg)
 
 ### Fonts
 
