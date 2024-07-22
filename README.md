@@ -13,7 +13,7 @@
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 </div>
 
-The project is deployed and can be accessed at [http://your-deployed-link.com](https://prideful-programmers-01c026806d6f.herokuapp.com/)
+The project is deployed and can be accessed at [https://prideful-programmers-01c026806d6f.herokuapp.com/](https://prideful-programmers-01c026806d6f.herokuapp.com/)
 
 ## Table of Content
 
@@ -25,8 +25,8 @@ The project is deployed and can be accessed at [http://your-deployed-link.com](h
     3. [Target Audience](#target-audience)
     4. [Benefits](#benefits)
 4. [Database Scheme](#database-schema)
-    1. [xxx App](#xxx-app)
-    2. [xxx App](#xxx-app)
+    1. [Home App](#home-app)
+    2. [Venues App](#venues-app)
 5. [Design](#design)
     1. [Design Choices](#design-choices)
     2. [Colour](#colours)
@@ -40,8 +40,12 @@ The project is deployed and can be accessed at [http://your-deployed-link.com](h
     4. [Tools](#tools)
     5. [Supporting Libraries and Packages](#supporting-libraries-and-packages)
 7. [Methodology](#methodology)
-8. [Credits](#credits)
-9. [Acknowledgements](#acknowledgements)
+8. [Performance](#performance)
+9. [Code Validation](#html-validation)
+    1. [HTML Validation](#html-validation)
+    2. [CSS Validation](#css-validation)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
 
 
 ## Introduction
@@ -77,30 +81,60 @@ The primary audience includes LGBTQIA+ individuals seeking safe and supportive e
 ### Benefits
 Users gain easy access to information about safe and welcoming spaces, reducing the stress and uncertainty of finding such places. The platform fosters a sense of community and belonging, encouraging users to support each other through shared experiences and recommendations.
 
-
 ## Database Scheme
 
+### Home App
+The home app is the entry point of the Inclusive Spots website, designed to provide an overview of the platform's mission and guide users to explore various LGBTQIA+ friendly venues. It aims to introduce users to the mission of the website and provide easy navigation to different venue categories such as Cafés, Bars & Clubs, and Support Centers. The app contains static content that highlights the purpose of the platform and encourages users to explore more. The key features to the home app which also serves as the homepage to the project include;
+- <strong>Hero Section:</strong> A welcoming image and a brief description of the platform's mission.
+- <strong>Call to Action:</strong> A prominent button that directs users to the venue listing page.
+- <strong>Categories Overview:</strong> Cards representing different venue categories (Cafés, Bars & Clubs, Support Centers) with a description and a link to explore more venues.
 
-### First App
-
-
-### Second App
-
-
+### Venues App
+The venues app is a crucial part of the Inclusive Spots platform, designed to showcase various LGBTQIA+ friendly venues. It provides detailed information about each venue, allowing users to explore and find safe spaces. The app manages and displays a comprehensive list of LGBTQIA+ friendly venues, categorized into different types such as Cafés, Bars & Clubs, and Support Centers. Users can browse through the list of venues, view detailed information about each venue, and explore the specific features of each category. The key features to the venues app include; 
+- <strong>Venue Listing:</strong> A list view displaying all venues with basic information and images.
+- <strong>Venue Details:</strong> A detail view providing comprehensive information about each venue, including address, contact information, opening hours, special features, and more.
+- <strong>Administrative Interface:</strong> Integration with Django's admin interface to manage venues and cities efficiently.
 
 ## Design
 
-
 ### Design Choices
-
+The design of the Inclusive Spots website is thoughtfully crafted to provide an inviting and user-friendly experience for visitors seeking LGBTQIA+ friendly venues. The website employs a clean and modern aesthetic, utilizing a combination of vibrant imagery and well-organized content to create a welcoming atmosphere. Below are some of the notable design elements for the project. 
+- <strong>Responsive Layout:</strong> The website is fully responsive, ensuring a seamless browsing experience across various devices, from desktops to mobile phones. The use of Bootstrap CSS framework helps in maintaining a consistent and adaptive design.
+- <strong>Intuitive Navigation:</strong> Navigation is straightforward and intuitive, with a clear menu structure and prominent call-to-action buttons that guide users to explore different sections of the site, such as venue listings and the about page.
+- <strong>Visual Appeal:</strong> High-quality images and a cohesive color palette enhance the visual appeal of the site. The homepage features a hero image that immediately engages visitors, accompanied by concise and compelling text about the platform's mission.
+- <strong>Category Highlights:</strong> The homepage highlights different venue categories (Cafés, Bars & Clubs, and Support Centers) with distinct cards, each featuring an icon, brief description, and a link to explore more. This design element helps users quickly identify and access the information they are interested in.
+- <strong>Custom Error Pages:</strong> Custom 404 and 500 error pages are designed to maintain the user experience even when encountering errors. These pages provide friendly messages and navigation options to guide users back to the main site.
+- <strong>Consistent Branding:</strong> The website maintains consistent branding throughout, with a recognizable logo, color scheme, and typography that reflect the inclusive and supportive nature of the platform.
+- <strong>Engaging Content:</strong> The content is engaging and informative, focusing on the platform's mission to provide safe and inclusive spaces for the LGBTQIA+ community. The design supports this mission by making information easily accessible and visually appealing.
 
 ### Colour
+The project employs a color paletre as seen below
 
+![color-palette](/documentation/images/color-palette.jpg)
 
 ### Fonts
-
+The Inclusive Spots website utilizes a combination of modern and clean fonts to enhance readability and aesthetic appeal. The design prioritizes accessibility, with clear fonts, sufficient color contrast, and easy-to-read text. The use of descriptive links and ARIA labels ensures that the site is navigable for users with disabilities.
 
 ### Structure
+
+The Inclusive Spots website is designed with a clear and intuitive structure to enhance user experience and ensure easy navigation. Below is an overview of the website structure:
+
+<strong>1. Home Page</strong>
+- Provides a welcoming introduction to the platform, highlighting the mission of Inclusive Spots and inviting users to explore various LGBTQIA+ friendly venues.
+
+<strong>2. About Page</strong>
+- Offers detailed information about the mission and vision of Inclusive Spots, emphasizing the commitment to providing safe and inclusive spaces for the LGBTQIA+ community.
+
+<strong>3. Venues Page</strong>
+- Displays a comprehensive list of LGBTQIA+ friendly venues.
+
+<strong>4. Custom Error Pages</strong>
+- 404 Page: Custom-designed page displayed when users encounter a "Page Not Found" error, guiding them back to the main site.
+- 500 Page: Custom-designed page displayed when there is a server error, reassuring users and offering navigation options back to the main site.
+
+<strong>5. Navigation</strong>
+- Header: Contains links to key sections of the site, including the Home, About, and Venues pages. It is consistently available across all pages for easy access.
+- Footer: Includes additional links, contact information, and social media icons, providing users with more ways to connect and explore.
 
 ## Entity-Relationship Diagram (ERD) Design
 
@@ -153,9 +187,6 @@ The Entity-Relationship Diagram (ERD) for our venue directory provides a structu
 
 </details>
 
-
-
-
 ## Technologies Used
 
 ### Languages
@@ -187,6 +218,18 @@ The Entity-Relationship Diagram (ERD) for our venue directory provides a structu
 - <strong>Bootstrap:</strong> As a popular CSS framework that helps in designing responsive and mobile-first web pages, we used it to ensure the directory is accessible and visually consistent across different devices and screen sizes.
 
 ## Methodology
+
+The Inclusive Spots website was created utilizing agile methodologies to boost teamwork, promote iterative progress, and refine project oversight. GitHub Projects was leveraged as a Kanban board to streamline agile project management, providing a clear view of the project's status. User stories were tracked as GitHub issues, ensuring a well-organized and methodical development process. The project adhered to the following methodology:
+
+1. Design Principles: The project follows a modular design approach, separating concerns into distinct Django apps. This enhances maintainability and scalability.
+
+2. Responsive Design: Bootstrap is used for responsive design to ensure that the website is accessible on various devices.
+
+3. User Experience: Emphasis is placed on providing a user-friendly experience with clear navigation, easy access to venue information, and engaging content.
+
+4. Data Management: The use of Django models and Cloudinary integration allows efficient management of venue data and media files.
+
+5. Error Handling: Custom error pages improve the user experience by providing meaningful feedback during errors.
 
 ## Deployment
 
@@ -221,7 +264,6 @@ Placeholder
 8. Apply migrations: `python manage.py migrate`
 9. Run the developmment server: `python manage.py runserver`
 
-
 ### Forking the repository
 
 1. Navigate to [prideful-programmers  GitHub repository](https://github.com/VCGithubCode/prideful-programmers?tab=readme-ov-file#Introduction).
@@ -230,6 +272,52 @@ Placeholder
 4. Click "Create Fork".
 5. A copy of the original repository should now appear on your GitHub account.
 
+## Performance
+
+The Inclusive Spots website was assessed with Google Lighthouse via Google Chrome Developer Tools. Performance scores were evaluated for both desktop and mobile devices.
+
+### Desktop Performance
+- The average score for the pages was 90/100 and the majority of the pages getting an excellent performance of over 90/100
+
+| **Tested** | **Performance Score** | **View Result** | **Pass** |
+--- | --- | --- | :---:
+|index| 95 / 100 | <details><summary>Screenshot of result</summary>![Result](/documentation/images/desktop-index.png)</details> | :white_check_mark:
+|about| 85 / 100 | <details><summary>Screenshot of result</summary>![Result](/documentation/images/desktop-about.png)</details> | :white_check_mark:
+|contact| 99 / 100 | <details><summary>Screenshot of result</summary>![Result](/documentation/images/desktop-contact.png)</details> | :white_check_mark:
+|venues | 74 / 100 | <details><summary>Screenshot of result</summary>![Result](/documentation/images/desktop-venues.png)</details> | :white_check_mark:
+|404| 99 / 100 | <details><summary>Screenshot of result</summary>![Result](/documentation/images/desktop-404.png)</details> | :white_check_mark:
+
+### Mobile Performance
+- The average score for the pages was 80/100 and the majority of the pages getting an good performance of 70/100
+
+| **Tested** | **Performance Score** | **View Result** | **Pass** |
+--- | --- | --- | :---:
+|index| 71 / 100 | <details><summary>Screenshot of result</summary>![Result](/documentation/images/mobile-index.png)</details> | :white_check_mark:
+|about| 78 / 100 | <details><summary>Screenshot of result</summary>![Result](/documentation/images/mobile-about.png)</details> | :white_check_mark:
+|contact| 92 / 100 | <details><summary>Screenshot of result</summary>![Result](/documentation/images/mobile-contact.png)</details> | :white_check_mark:
+|venues | 70 / 100 | <details><summary>Screenshot of result</summary>![Result](/documentation/images/mobile-venues.png)</details> | :white_check_mark:
+|404| 93 / 100 | <details><summary>Screenshot of result</summary>![Result](/documentation/images/mobile-404.png)</details> | :white_check_mark:
+
+## Code Validation
+
+### HTML Validation
+ll pages were validated, and the code was pasted in. A filter was applied to remove issues related to the Django templating system. 
+
+| **Tested** | **Result** | **View Result** | **Pass** |
+--- | --- | --- | :---:
+|base| No errors | <details><summary>Screenshot of result</summary>![Result](/documentation/validation/base.png)</details>| :white_check_mark:
+|index| No errors | <details><summary>Screenshot of result</summary>![Result](/documentation/validation/index.png)</details>| :white_check_mark:
+|about| No errors | <details><summary>Screenshot of result</summary>![Result](/documentation/validation/about.png)</details>| :white_check_mark:
+|venue_list| No errors | <details><summary>Screenshot of result</summary>![Result](/documentation/validation/venue-list.png)</details>| :white_check_mark:
+|404| No errors | <details><summary>Screenshot of result</summary>![Result](/documentation/validation/404.png)</details>| :white_check_mark:
+|500| No errors | <details><summary>Screenshot of result</summary>![Result](/documentation/validation/500.png)</details>| :white_check_mark:
+
+### CSS Validation
+
+| **Tested** | **Result** | **View Result** | **Pass** |
+--- | --- | --- | :---:
+|styles.css | No errors |<details><summary>Screenshot of result</summary>![Result](/documentation/validation/styles.png)</details>| :white_check_mark:
+|Whole webpage | When validating the website as a whole, the validator shows warnings linked to Bootstrap v5.0. |[Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fprideful-programmers-01c026806d6f.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings)| :white_check_mark:
 
 ## Credits
 
@@ -237,19 +325,10 @@ Special thanks to Sophie Flynn for creating our website Logo! You can read more 
 
 We are using [Font Awesome](https://fontawesome.com/) for the icons throughout our website. Thank you to the Font Awesome team for their excellent work and for making these icons available to the community.
 
-## Bugs
-
-
-
 ## Acknowledgements
-[Edgar Kimbugwe](https://github.com/Edgarkimbugwe) - Documentation <br>
-
-
-<!-- Please place your team member information here -->
+[Aoife Kirby](https://github.com/akirby23) - Backend <br>
+[Ciaran Griffin](https://github.com/ciarangriffin93) - Design and venues page <br>
+[David Cotter](https://github.com/trxdave) - Design and venues page <br>
+[Edgar Kimbugwe](https://github.com/Edgarkimbugwe) - Documentation, footer and about page <br>
 [Laura Kondrataite](https://github.com/laurakond/) - Content<br>
-
-
-
-
-
 [Vernell Clark](https://github.com/VCGithubCode) - Scrum Lead and Project Presentation<br>
