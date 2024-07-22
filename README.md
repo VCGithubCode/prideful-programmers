@@ -15,9 +15,9 @@
 
 The project is deployed and can be accessed at [https://prideful-programmers-01c026806d6f.herokuapp.com/](https://prideful-programmers-01c026806d6f.herokuapp.com/)
 
-## Table of Content
+## Table of Contents
 
-1. [Introduction](#Introduction)
+1. [Introduction](#introduction)
 2. [Criteria](#criteria)
 3. [Project Goals](#project-goals)
     1. [Problem Statement](#problem-statement)
@@ -53,6 +53,8 @@ Welcome to Inclusive Spots directory! This project aims to provide a comprehensi
 
 This directory includes a variety of spaces such as cafes, clubs, support centers, and more. Users can view detailed information about each space, read and write reviews. By empowering users to share their experiences and knowledge, we aim to create a vibrant, supportive network that enhances the well-being and connectedness of the LGBTQIA+ community.
 
+[Return to Table of Contents](#table-of-contents)
+
 ## Criteria
 
 To ensure that Inclusive Spots directory project meets its goals effectively, we focus on the following criteria to guide our efforts to create a meaningful, practical, and forward-thinking platform that addresses the needs of the LGBTQIA+ community.
@@ -62,6 +64,8 @@ To ensure that Inclusive Spots directory project meets its goals effectively, we
 - <strong>Realistic and Has Real World Value:</strong> This project is grounded in real-world needs, as many LGBTQIA+ individuals often face challenges in finding safe and inclusive spaces. Utilizing established technologies like HTML, CSS, JavaScript, Python, and Django ensures that the project is feasible with current resources and skills. The platform’s features, such as location-based searches and user reviews, provide practical, everyday value to users seeking safe spaces. By addressing a clear and present need, the directory offers tangible benefits to its users and the broader community.
 
 - <strong>Demonstrates Innovation and Creativity:</strong> The project introduces a novel approach by combining user-generated content with advanced search and mapping capabilities to create a dynamic, interactive resource. The platform’s focus on accessibility and detailed information about each space showcases a commitment to inclusivity and user-centric design. By leveraging technology to create a supportive community hub, the project demonstrates creativity in addressing social issues through digital innovation. The platform’s unique blend of features and its mission-driven purpose exemplify forward-thinking and imaginative problem-solving.
+
+[Return to Table of Contents](#table-of-contents)
 
 ## Project goals
 
@@ -81,6 +85,8 @@ The primary audience includes LGBTQIA+ individuals seeking safe and supportive e
 ### Benefits
 Users gain easy access to information about safe and welcoming spaces, reducing the stress and uncertainty of finding such places. The platform fosters a sense of community and belonging, encouraging users to support each other through shared experiences and recommendations.
 
+[Return to Table of Contents](#table-of-contents)
+
 ## Database Scheme
 
 ### Home App
@@ -94,6 +100,8 @@ The venues app is a crucial part of the Inclusive Spots platform, designed to sh
 - <strong>Venue Listing:</strong> A list view displaying all venues with basic information and images.
 - <strong>Venue Details:</strong> A detail view providing comprehensive information about each venue, including address, contact information, opening hours, special features, and more.
 - <strong>Administrative Interface:</strong> Integration with Django's admin interface to manage venues and cities efficiently.
+
+[Return to Table of Contents](#table-of-contents)
 
 ## Design
 
@@ -138,11 +146,15 @@ The Inclusive Spots website is designed with a clear and intuitive structure to 
 - Header: Contains links to key sections of the site, including the Home, About, and Venues pages. It is consistently available across all pages for easy access.
 - Footer: Includes additional links, contact information, and social media icons, providing users with more ways to connect and explore.
 
+[Return to Table of Contents](#table-of-contents)
+
 ## Entity-Relationship Diagram (ERD) Design
 
 The Entity-Relationship Diagram (ERD) for our venue directory provides a structured representation of the relationships and attributes of the City and Venue entities. This design helps in organizing the data and understanding how different entities are interconnected within the system.
 
 ![ERD](/documents/images/erd.jpg)
+
+[Return to Table of Contents](#table-of-contents)
 
 ## ERD for Venue Directory
 
@@ -194,6 +206,8 @@ The Entity-Relationship Diagram (ERD) for our venue directory provides a structu
 
 </details>
 
+[Return to Table of Contents](#table-of-contents)
+
 ## Technologies Used
 
 ### Languages
@@ -224,6 +238,8 @@ The Entity-Relationship Diagram (ERD) for our venue directory provides a structu
 
 - <strong>Bootstrap:</strong> As a popular CSS framework that helps in designing responsive and mobile-first web pages, we used it to ensure the directory is accessible and visually consistent across different devices and screen sizes.
 
+[Return to Table of Contents](#table-of-contents)
+
 ## Methodology
 
 The Inclusive Spots website was created utilizing agile methodologies to boost teamwork, promote iterative progress, and refine project oversight. GitHub Projects was leveraged as a Kanban board to streamline agile project management, providing a clear view of the project's status. User stories were tracked as GitHub issues, ensuring a well-organized and methodical development process. The project adhered to the following methodology:
@@ -237,6 +253,8 @@ The Inclusive Spots website was created utilizing agile methodologies to boost t
 4. Data Management: The use of Django models and Cloudinary integration allows efficient management of venue data and media files.
 
 5. Error Handling: Custom error pages improve the user experience by providing meaningful feedback during errors.
+
+[Return to Table of Contents](#table-of-contents)
 
 ## Deployment
 
@@ -279,6 +297,8 @@ Placeholder
 4. Click "Create Fork".
 5. A copy of the original repository should now appear on your GitHub account.
 
+[Return to Table of Contents](#table-of-contents)
+
 ## Performance
 
 The Inclusive Spots website was assessed with Google Lighthouse via Google Chrome Developer Tools. Performance scores were evaluated for both desktop and mobile devices.
@@ -305,6 +325,8 @@ The Inclusive Spots website was assessed with Google Lighthouse via Google Chrom
 |venues | 70 / 100 | <details><summary>Screenshot of result</summary>![Result](/documentation/images/mobile-venues.png)</details> | :white_check_mark:
 |404| 93 / 100 | <details><summary>Screenshot of result</summary>![Result](/documentation/images/mobile-404.png)</details> | :white_check_mark:
 
+[Return to Table of Contents](#table-of-contents)
+
 ## Code Validation
 
 ### HTML Validation
@@ -326,11 +348,15 @@ ll pages were validated, and the code was pasted in. A filter was applied to rem
 |styles.css | No errors |<details><summary>Screenshot of result</summary>![Result](/documentation/validation/styles.png)</details>| :white_check_mark:
 |Whole webpage | When validating the website as a whole, the validator shows warnings linked to Bootstrap v5.0. |[Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fprideful-programmers-01c026806d6f.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings)| :white_check_mark:
 
+[Return to Table of Contents](#table-of-contents)
+
 ## Credits
 
 Special thanks to Sophie Flynn for creating our website Logo! You can read more about her work [here](https://www.strangehabitude.com/) or follow her on [Instagram](https://www.instagram.com/strangehabitude/).
 
 We are using [Font Awesome](https://fontawesome.com/) for the icons throughout our website. Thank you to the Font Awesome team for their excellent work and for making these icons available to the community.
+
+[Return to Table of Contents](#table-of-contents)
 
 ## Acknowledgements
 [Aoife Kirby](https://github.com/akirby23) - Backend, Database, Deployment, Contact page, Venues page <br>
@@ -339,3 +365,5 @@ We are using [Font Awesome](https://fontawesome.com/) for the icons throughout o
 [Edgar Kimbugwe](https://github.com/Edgarkimbugwe) - Documentation, Footer, About page, Error pages <br>
 [Laura Kondrataite](https://github.com/laurakond/) - Content, Landing Page, Footer, Github Projects Board  <br>
 [Vernell Clark](https://github.com/VCGithubCode) - Scrum Lead, Header, Overall styling, A little bit of nearly everything else, and Project Presentation<br>
+
+[Return to Table of Contents](#table-of-contents)
