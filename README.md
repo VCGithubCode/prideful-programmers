@@ -332,9 +332,9 @@ Special thanks to Sophie Flynn for creating our website Logo! You can read more 
 We are using [Font Awesome](https://fontawesome.com/) for the icons throughout our website. Thank you to the Font Awesome team for their excellent work and for making these icons available to the community.
 
 ## Acknowledgements
-[Aoife Kirby](https://github.com/akirby23) - Backend <br>
-[Ciaran Griffin](https://github.com/ciarangriffin93) - Design and venues page <br>
-[David Cotter](https://github.com/trxdave) - Design and venues page <br>
-[Edgar Kimbugwe](https://github.com/Edgarkimbugwe) - Documentation, footer and about page <br>
-[Laura Kondrataite](https://github.com/laurakond/) - Content<br>
-[Vernell Clark](https://github.com/VCGithubCode) - Scrum Lead and Project Presentation<br>
+[Aoife Kirby](https://github.com/akirby23) - Backend, Database, Deployment, Contact page, Venues page <br>
+[Ciaran Griffin](https://github.com/ciarangriffin93) - Design, Wireframes, and Venues page <br>
+[David Cotter](https://github.com/trxdave) - Design, Wireframes, and Venues page <br>
+[Edgar Kimbugwe](https://github.com/Edgarkimbugwe) - Documentation, Footer, About page, Error pages <br>
+[Laura Kondrataite](https://github.com/laurakond/) - Content, Landing Page, Footer, Github Projects Board  <br>
+[Vernell Clark](https://github.com/VCGithubCode) - Scrum Lead, Header, Overall styling, A little bit of nearly everything else, and Project Presentation<br>
