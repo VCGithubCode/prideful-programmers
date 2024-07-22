@@ -29,7 +29,7 @@ The project is deployed and can be accessed at [https://prideful-programmers-01c
     2. [Venues App](#venues-app)
 5. [Design](#design)
     1. [Design Choices](#design-choices)
-    2. [Colour](#colours)
+    2. [Colour](#colour)
     3. [Fonts](#fonts)
     4. [Structure](#structure)
     5. [Wireframes](#wireframes)
@@ -122,8 +122,14 @@ The Inclusive Spots website is designed with a clear and intuitive structure to 
 <strong>1. Home Page</strong>
 - Provides a welcoming introduction to the platform, highlighting the mission of Inclusive Spots and inviting users to explore various LGBTQIA+ friendly venues.
 
+
 <strong>2. About Page</strong>
 - Offers detailed information about the mission and vision of Inclusive Spots, emphasizing the commitment to providing safe and inclusive spaces for the LGBTQIA+ community.
+
+We used the following colour palette:
+
+![colour-palette](documents/images/color-palette.jpg)
+
 
 <strong>3. Venues Page</strong>
 - Displays a comprehensive list of LGBTQIA+ friendly venues.
