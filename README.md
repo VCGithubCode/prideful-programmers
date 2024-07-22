@@ -263,7 +263,7 @@ The Inclusive Spots website was created utilizing agile methodologies to boost t
 ## Features
 
 ### Landing page, Header and Footer
-![Header](documentation/images/features\Header.png)
+![Header](documentation/images/features/Header.png)
 ![upper landing page](documentation/images/features/landing-upper-fold.png)
 ![lower landing page](documentation/images/features/landing-bottom-fold.png)
 ![Footer](documentation/images/features/footer.png)
@@ -311,7 +311,7 @@ Each venue includes the following:
 ![404 page](documentation/images/features/error404.png)
 
 - 500 error page
-![500 page](documentation/images/features/error404.pngdocumentation/images/features/error505.png)
+![500 page](documentation/images/features/error505.png)
 
 [Return to Table of Contents](#table-of-contents)
 
