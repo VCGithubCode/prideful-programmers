@@ -276,7 +276,10 @@ The Inclusive Spots website was created utilizing agile methodologies to boost t
 ### The Venues page
 - The main venue page lists three categories: cafes, bars/clubs and support centres. Depending on which button the user selected on the landing page, they will be taken to the filtered list of venues. 
 
+
 #### Categories
+
+Additionally, we plan on implementing pagination in the future in order to render the Venues page more user-friendly.
 
 ##### Cafes
 Welcoming environments ideal for socializing, working, or relaxing. Known for inclusive policies and a friendly atmosphere.
