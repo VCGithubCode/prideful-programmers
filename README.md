@@ -126,10 +126,6 @@ The Inclusive Spots website is designed with a clear and intuitive structure to 
 <strong>2. About Page</strong>
 - Offers detailed information about the mission and vision of Inclusive Spots, emphasizing the commitment to providing safe and inclusive spaces for the LGBTQIA+ community.
 
-We used the following colour palette:
-
-![colour-palette](documents/images/color-palette.jpg)
-
 
 <strong>3. Venues Page</strong>
 - Displays a comprehensive list of LGBTQIA+ friendly venues.
