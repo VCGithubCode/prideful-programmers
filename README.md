@@ -264,6 +264,8 @@ The Inclusive Spots website was created utilizing agile methodologies to boost t
 ### Resources Page with Interactive Map
 We are planning to introduce a comprehensive Resources page to provide users with essential information and links to helpful venues categorized into Cafes, Support Centers, and Clubs. This page aims to support the community by offering easy access to places that promote inclusivity and support.
 
+Additionally, we plan on implementing pagination in the future in order to render the Venues page more user-friendly.
+
 ## Categories
 
 ### Cafes
