@@ -9,21 +9,32 @@
     </div>
   </div>
 
+  <div class="text-center mt-5 p-4 h3 rfs-11 fw-light">
+        <hr class="w-50 mx-auto mb-5">
+        <p class="lh-m">
+          <i class="fa-solid fa-rainbow"></i>  Find your safe haven <i class="fa-solid fa-rainbow"></i>
+        </p>
+        <hr class="w-50 mx-auto mt-5">
+        <p class="lh-m fs-6">
+            Click the tabs below to find an ideal safe space near you
+        </p>
+    </div>
+
   <!-- Venues -->
-  <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <ul class="nav custom-navbar p-1 nav-tabs" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
       <button class="nav-link {% if selected_category == 'Café' %}active{% endif %}" id="cafes-tab" data-bs-toggle="tab" data-bs-target="#cafes" type="button" role="tab" aria-controls="cafes" aria-selected="true">
-        Cafés
+        <i class="fa-solid fa-mug-hot"></i> Cafés
       </button>
     </li>
     <li class="nav-item" role="presentation">
       <button class="nav-link {% if selected_category == 'Club' %}active{% endif %}" id="clubs-tab" data-bs-toggle="tab" data-bs-target="#clubs" type="button" role="tab" aria-controls="clubs" aria-selected="false">
-        Clubs
+        <i class="fa-solid fa-champagne-glasses"></i> Clubs
       </button>
     </li>
     <li class="nav-item" role="presentation">
       <button class="nav-link {% if selected_category == 'Support Center' %}active{% endif %}" id="supportcenters-tab" data-bs-toggle="tab" data-bs-target="#supportcenters" type="button" role="tab" aria-controls="supportcenters" aria-selected="false">
-        Support Centers
+        <i class="fa-solid fa-handshake-simple"></i> Support Centers
       </button>
     </li>
   </ul>
@@ -35,7 +46,7 @@
         <div class="row gx-4 gx-lg-5">
           {% for venue in cafes %}
           <div class="col-md-4 mb-5">
-            <div class="card h-100">
+            <div class="card h-100 shadow">
               {% if 'placeholder' in venue.image.url %}
               <img src="https://res.cloudinary.com/dxs42sums/image/upload/v1721583416/evelyn-paris-QR_vT8_hBZM-unsplash_wkiekd.jpg" class="card-img-top venue-img" alt="Venue" />
               {% else %}
@@ -50,6 +61,7 @@
                 <p class="card-text"><i class="fa-solid fa-star"></i> Special features: {{ venue.special_features }}</p>
               </div>
             </div>
+            <div class="card-footer custom-footer"></div>
           </div>
           {% endfor %}
         </div>
@@ -62,7 +74,7 @@
         <div class="row gx-4 gx-lg-5">
           {% for venue in clubs %}
           <div class="col-md-4 mb-5">
-            <div class="card h-100">
+            <div class="card h-100 shadow">
               {% if 'placeholder' in venue.image.url %}
               <img src="https://res.cloudinary.com/dxs42sums/image/upload/v1721583416/evelyn-paris-QR_vT8_hBZM-unsplash_wkiekd.jpg" class="card-img-top venue-img" alt="Venue" />
               {% else %}
@@ -76,6 +88,7 @@
                 <p class="card-text"><i class="fa-regular fa-clock"></i> {{ venue.opening_hours | safe }}</p>
                 <p class="card-text"><i class="fa-solid fa-star"></i> Special features: {{ venue.special_features }}</p>
               </div>
+              <div class="card-footer custom-footer"></div>
             </div>
           </div>
           {% endfor %}
@@ -89,7 +102,7 @@
         <div class="row gx-4 gx-lg-5">
           {% for venue in support_centers %}
           <div class="col-md-4 mb-5">
-            <div class="card h-100">
+            <div class="card h-100 shadow">
               {% if 'placeholder' in venue.image.url %}
               <img src="https://res.cloudinary.com/dxs42sums/image/upload/v1721583416/evelyn-paris-QR_vT8_hBZM-unsplash_wkiekd.jpg" class="card-img-top venue-img" alt="Venue" />
               {% else %}
@@ -103,6 +116,7 @@
                 <p class="card-text"><i class="fa-regular fa-clock"></i> {{ venue.opening_hours | safe }}</p>
                 <p class="card-text"><i class="fa-solid fa-star"></i> Special features: {{ venue.special_features }}</p>
               </div>
+              <div class="card-footer custom-footer"></div>
             </div>
           </div>
           {% endfor %}
