@@ -41,12 +41,13 @@ The project is deployed and can be accessed at [https://prideful-programmers-01c
     5. [Supporting Libraries and Packages](#supporting-libraries-and-packages)
 7. [Methodology](#methodology)
 8. [Future Features](#future-features)
-9. [Performance](#performance)
-10. [Code Validation](#html-validation)
+9. [Deployment](#deployment)
+10. [Performance](#performance)
+11. [Code Validation](#html-validation)
     1. [HTML Validation](#html-validation)
     2. [CSS Validation](#css-validation)
-11. [Credits](#credits)
-12. [Acknowledgements](#acknowledgements)
+12. [Credits](#credits)
+13. [Acknowledgements](#acknowledgements)
 
 
 ## Introduction
