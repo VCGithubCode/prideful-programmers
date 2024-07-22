@@ -156,6 +156,39 @@ The Entity-Relationship Diagram (ERD) for our venue directory provides a structu
 
 </details>
 
+### Accessibility
+
+We've tested our deployed project using the Lighthouse Audit too to check for any major issues.
+
+| Page | Mobile | Desktop | Notes |
+| --- | --- | --- | --- |
+| Landing Pages | ![Mobile](documents/images/mobile-landing-page.png) | ![Desktop](documents/images/desktop-landing-page.png) | 94 Accessibility |
+| Venue | ![Mobile](documents/images/mobile-venue.png) | ![Desktop](documents/images/desktop-venue.png) | 100 Accessibility |
+| About | ![Mobile](documents/images/mobile-about.png) | ![Desktop](documents/images/desktop-about.png) | 98 Accessibility |
+| Contact | ![Mobile](documents/images/mobile-contact.png) | ![Desktop](documents/images/desktop-contact.png) | 100 Accessibility |
+
+### Code Validator
+
+We have used the recommended HTML W3C Validator [W3C Validator](https://validator.w3.org) to validate all of our HTML files.
+
+There were a few errors on the Validator.
+
+| Directory | File | Screenshot | Notes |
+| --- | --- | --- | --- |
+| documents/validator | index.html | ![Screenshot]() | There were no syntax errors. |
+| documents/validator | venue_lists.html | ![Screenshot]() | There were no syntax errors. |
+| documents/validator | about.html | ![Screenshot]() | There were no syntax errors. |
+| documents/validator | contact.html | ![Screenshot]() | There were no syntax errors. |
+
+### W3C CSS Validator
+
+We have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of our CSS files.
+
+We checked our CSS thoroughly and did not find any errors or warnings.
+
+| Directory | File | Screenshot | Notes |
+| --- | --- | --- | --- |
+| pridefulproject | static/css/styles.css | ![screenshot]()
 
 
 
