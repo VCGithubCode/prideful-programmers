@@ -356,6 +356,10 @@ Special thanks to Sophie Flynn for creating our website Logo! You can read more 
 
 We are using [Font Awesome](https://fontawesome.com/) for the icons throughout our website. Thank you to the Font Awesome team for their excellent work and for making these icons available to the community.
 
+Hero images in the landing page and placeholder images in the Venues page were obtained from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/) websites. 
+
+The images used for the venue cards were taken from respective websites to reflect the authenticity of the venues.
+
 [Return to Table of Contents](#table-of-contents)
 
 ## Acknowledgements
