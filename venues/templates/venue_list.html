@@ -89,6 +89,9 @@
                   <i class="fa-solid fa-location-dot"></i> {{ venue.address }}
                 </p>
                 <p class="card-text">
+                  <i class="fa-solid fa-globe"></i> {{ venue.website }}
+                </p>
+                <p class="card-text">
                   <i class="fa-solid fa-address-book"></i> {{ venue.contact_info }}
                 </p>
                 <p class="card-text">
@@ -133,6 +136,9 @@
                 <h2 class="card-title">{{ venue.name }}</h2>
                 <p class="card-text">
                   <i class="fa-solid fa-location-dot"></i> {{ venue.address }}
+                </p>
+                <p class="card-text">
+                  <i class="fa-solid fa-globe"></i> {{ venue.website }}
                 </p>
                 <p class="card-text">
                   <i class="fa-solid fa-address-book"></i> {{ venue.contact_info }}
@@ -181,8 +187,11 @@
                   <i class="fa-solid fa-location-dot"></i> {{ venue.address }}
                 </p>
                 <p class="card-text">
-                  <i class="fa-solid fa-address-book"></i> {{ venue.contact_info
-                  }}
+                  <i class="fa-solid fa-globe"></i> {{ venue.website }}
+                </p>
+                <p class="card-text">
+                  <i class="fa-solid fa-address-book"></i> 
+                  {{ venue.contact_info }}
                 </p>
                 <p class="card-text">
                   <i class="fa-regular fa-clock"></i> {{ venue.opening_hours | safe }}
@@ -196,6 +205,7 @@
           {% endfor %}
         </div>
       </div>
+      
     </div>
   </div>
 </div>

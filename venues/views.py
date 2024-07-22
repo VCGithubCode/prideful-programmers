@@ -10,6 +10,7 @@ class VenueList(generic.ListView):
      """
      model = Venue
      template_name = 'venue_list.html'
+     paginate_by = 9
      
      def get_queryset(self):
           return Venue.objects.all()
