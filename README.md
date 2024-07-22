@@ -290,7 +290,25 @@ To enhance user experience, an interactive map feature will be integrated, allow
 
 This application has been deployed to Heroku using the following steps:
 
-Placeholder
+#### Create the app
+1. Create a Heroku account on [heroku.com](https://heroku.com/)
+2. From the top right hand corner of the dashboard, click "New", then click "Create new app".
+3. Give the app a unique name and select the relevant region.
+4. Click "Create app".
+
+#### Set the Config Vars
+
+From the settings tab on the app dashboard, navigate to "Config Vars and click "Reveal Config Vars".
+
+Set them as follows:
+
+| Key | Value | 
+| --- | --- |
+| CLOUDINARY_URL| Your Cloudinary URL |
+| DATABASE_URL| Your own database URL |
+| DISABLE_COLLECTSTATIC | 1 (temporary step, to be removed before deployment)
+| SECRET_KEY | Your own secret key |
+
 
 ### Local Deployment
 1. Clone the repository: `git clone https://github.com/VCGithubCode/prideful-programmers.git`
