@@ -1,10 +1,8 @@
 {% extends 'base.html' %} 
 {% block content %}
-<div class="container mt-3 min-vh-100">
+<div class="container mt-3 min-vh-100" id="venues-page">
   <div class="about-us">
-    <div
-      class="container py-5 d-flex justify-content-center align-items-center"
-    >
+    <div class="container py-5 d-flex justify-content-center align-items-center">
       <div>
         <h1 class="fw-bold text-white">VENUES</h1>
       </div>
@@ -14,92 +12,42 @@
   <!-- Venues -->
   <ul class="nav nav-tabs" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
-      <button
-        class="nav-link {% if selected_category == 'Café' %}active{% endif %}"
-        id="cafes-tab"
-        data-bs-toggle="tab"
-        data-bs-target="#cafes"
-        type="button"
-        role="tab"
-        aria-controls="cafes"
-        aria-selected="true"
-      >
+      <button class="nav-link {% if selected_category == 'Café' %}active{% endif %}" id="cafes-tab" data-bs-toggle="tab" data-bs-target="#cafes" type="button" role="tab" aria-controls="cafes" aria-selected="true">
         Cafés
       </button>
     </li>
     <li class="nav-item" role="presentation">
-      <button
-        class="nav-link {% if selected_category == 'Club' %}active{% endif %}"
-        id="clubs-tab"
-        data-bs-toggle="tab"
-        data-bs-target="#clubs"
-        type="button"
-        role="tab"
-        aria-controls="clubs"
-        aria-selected="false"
-      >
+      <button class="nav-link {% if selected_category == 'Club' %}active{% endif %}" id="clubs-tab" data-bs-toggle="tab" data-bs-target="#clubs" type="button" role="tab" aria-controls="clubs" aria-selected="false">
         Clubs
       </button>
     </li>
     <li class="nav-item" role="presentation">
-      <button
-        class="nav-link {% if selected_category == 'Support Center' %}active{% endif %}"
-        id="supportcenters-tab"
-        data-bs-toggle="tab"
-        data-bs-target="#supportcenters"
-        type="button"
-        role="tab"
-        aria-controls="supportcenters"
-        aria-selected="false"
-      >
+      <button class="nav-link {% if selected_category == 'Support Center' %}active{% endif %}" id="supportcenters-tab" data-bs-toggle="tab" data-bs-target="#supportcenters" type="button" role="tab" aria-controls="supportcenters" aria-selected="false">
         Support Centers
       </button>
     </li>
   </ul>
 
-    <!-- Cafés Tab -->
+  <!-- Cafés Tab -->
   <div class="tab-content" id="myTabContent">
-    <div
-      class="tab-pane fade {% if selected_category == 'Café' %}show active{% endif %}"
-      id="cafes"
-      role="tabpanel"
-      aria-labelledby="cafés-tab"
-    >
+    <div class="tab-pane fade {% if selected_category == 'Café' %}show active{% endif %}" id="cafes" role="tabpanel" aria-labelledby="cafés-tab">
       <div class="container mt-3 p-2">
         <div class="row gx-4 gx-lg-5">
           {% for venue in cafes %}
           <div class="col-md-4 mb-5">
             <div class="card h-100">
               {% if 'placeholder' in venue.image.url %}
-              <img
-                src="https://res.cloudinary.com/dxs42sums/image/upload/v1721583416/evelyn-paris-QR_vT8_hBZM-unsplash_wkiekd.jpg"
-                class="card-img-top"
-                alt="Venue"
-              />
+              <img src="https://res.cloudinary.com/dxs42sums/image/upload/v1721583416/evelyn-paris-QR_vT8_hBZM-unsplash_wkiekd.jpg" class="card-img-top venue-img" alt="Venue" />
               {% else %}
-              <img
-                src="{{ venue.image.url }}"
-                class="card-img-top"
-                alt="Venue"
-              />
+              <img src="{{ venue.image.url }}" class="card-img-top venue-img" alt="Venue" />
               {% endif %}
               <div class="card-body">
                 <h2 class="card-title">{{ venue.name }}</h2>
-                <p class="card-text">
-                  <i class="fa-solid fa-location-dot"></i> {{ venue.address }}
-                </p>
-                <p class="card-text">
-                  <i class="fa-solid fa-globe"></i> {{ venue.website }}
-                </p>
-                <p class="card-text">
-                  <i class="fa-solid fa-address-book"></i> {{ venue.contact_info }}
-                </p>
-                <p class="card-text">
-                  <i class="fa-regular fa-clock"></i> {{ venue.opening_hours | safe }}
-                </p>
-                <p class="card-text">
-                  <i class="fa-solid fa-star"></i> Special features: {{ venue.special_features }}
-                </p>
+                <p class="card-text"><i class="fa-solid fa-location-dot"></i> {{ venue.address }}</p>
+                <p class="card-text"><i class="fa-solid fa-globe"></i> {{ venue.website }}</p>
+                <p class="card-text"><i class="fa-solid fa-address-book"></i> {{ venue.contact_info }}</p>
+                <p class="card-text"><i class="fa-regular fa-clock"></i> {{ venue.opening_hours | safe }}</p>
+                <p class="card-text"><i class="fa-solid fa-star"></i> Special features: {{ venue.special_features }}</p>
               </div>
             </div>
           </div>
@@ -107,48 +55,26 @@
         </div>
       </div>
     </div>
+
     <!-- Clubs Tab -->
-    <div
-      class="tab-pane fade {% if selected_category == 'Club' %}show active{% endif %}"
-      id="clubs"
-      role="tabpanel"
-      aria-labelledby="clubs-tab"
-    >
+    <div class="tab-pane fade {% if selected_category == 'Club' %}show active{% endif %}" id="clubs" role="tabpanel" aria-labelledby="clubs-tab">
       <div class="container mt-3 p-2">
         <div class="row gx-4 gx-lg-5">
           {% for venue in clubs %}
           <div class="col-md-4 mb-5">
             <div class="card h-100">
               {% if 'placeholder' in venue.image.url %}
-              <img
-                src="https://res.cloudinary.com/dxs42sums/image/upload/v1721583416/evelyn-paris-QR_vT8_hBZM-unsplash_wkiekd.jpg"
-                class="card-img-top"
-                alt="Venue"
-              />
+              <img src="https://res.cloudinary.com/dxs42sums/image/upload/v1721583416/evelyn-paris-QR_vT8_hBZM-unsplash_wkiekd.jpg" class="card-img-top venue-img" alt="Venue" />
               {% else %}
-              <img
-                src="{{ venue.image.url }}"
-                class="card-img-top"
-                alt="Venue"
-              />
+              <img src="{{ venue.image.url }}" class="card-img-top venue-img" alt="Venue" />
               {% endif %}
               <div class="card-body">
                 <h2 class="card-title">{{ venue.name }}</h2>
-                <p class="card-text">
-                  <i class="fa-solid fa-location-dot"></i> {{ venue.address }}
-                </p>
-                <p class="card-text">
-                  <i class="fa-solid fa-globe"></i> {{ venue.website }}
-                </p>
-                <p class="card-text">
-                  <i class="fa-solid fa-address-book"></i> {{ venue.contact_info }}
-                </p>
-                <p class="card-text">
-                  <i class="fa-regular fa-clock"></i> {{ venue.opening_hours | safe }}
-                </p>
-                <p class="card-text">
-                  <i class="fa-solid fa-star"></i> Special features: {{ venue.special_features }}
-                </p>
+                <p class="card-text"><i class="fa-solid fa-location-dot"></i> {{ venue.address }}</p>
+                <p class="card-text"><i class="fa-solid fa-globe"></i> {{ venue.website }}</p>
+                <p class="card-text"><i class="fa-solid fa-address-book"></i> {{ venue.contact_info }}</p>
+                <p class="card-text"><i class="fa-regular fa-clock"></i> {{ venue.opening_hours | safe }}</p>
+                <p class="card-text"><i class="fa-solid fa-star"></i> Special features: {{ venue.special_features }}</p>
               </div>
             </div>
           </div>
@@ -156,56 +82,32 @@
         </div>
       </div>
     </div>
+
     <!-- Support Centers Tab -->
-    <div
-      class="tab-pane fade {% if selected_category == 'Support Center' %}show active{% endif %}"
-      id="supportcenters"
-      role="tabpanel"
-      aria-labelledby="supportcenters"
-    >
+    <div class="tab-pane fade {% if selected_category == 'Support Center' %}show active{% endif %}" id="supportcenters" role="tabpanel" aria-labelledby="supportcenters">
       <div class="container mt-3 p-2">
         <div class="row gx-4 gx-lg-5">
           {% for venue in support_centers %}
           <div class="col-md-4 mb-5">
             <div class="card h-100">
               {% if 'placeholder' in venue.image.url %}
-              <img
-                src="https://res.cloudinary.com/dxs42sums/image/upload/v1721583416/evelyn-paris-QR_vT8_hBZM-unsplash_wkiekd.jpg"
-                class="card-img-top"
-                alt="Venue"
-              />
+              <img src="https://res.cloudinary.com/dxs42sums/image/upload/v1721583416/evelyn-paris-QR_vT8_hBZM-unsplash_wkiekd.jpg" class="card-img-top venue-img" alt="Venue" />
               {% else %}
-              <img
-                src="{{ venue.image.url }}"
-                class="card-img-top"
-                alt="Venue"
-              />
+              <img src="{{ venue.image.url }}" class="card-img-top venue-img" alt="Venue" />
               {% endif %}
               <div class="card-body">
                 <h2 class="card-title">{{ venue.name }}</h2>
-                <p class="card-text">
-                  <i class="fa-solid fa-location-dot"></i> {{ venue.address }}
-                </p>
-                <p class="card-text">
-                  <i class="fa-solid fa-globe"></i> {{ venue.website }}
-                </p>
-                <p class="card-text">
-                  <i class="fa-solid fa-address-book"></i> 
-                  {{ venue.contact_info }}
-                </p>
-                <p class="card-text">
-                  <i class="fa-regular fa-clock"></i> {{ venue.opening_hours | safe }}
-                </p>
-                <p class="card-text">
-                  <i class="fa-solid fa-star"></i> Special features: {{ venue.special_features }}
-                </p>
+                <p class="card-text"><i class="fa-solid fa-location-dot"></i> {{ venue.address }}</p>
+                <p class="card-text"><i class="fa-solid fa-globe"></i> {{ venue.website }}</p>
+                <p class="card-text"><i class="fa-solid fa-address-book"></i> {{ venue.contact_info }}</p>
+                <p class="card-text"><i class="fa-regular fa-clock"></i> {{ venue.opening_hours | safe }}</p>
+                <p class="card-text"><i class="fa-solid fa-star"></i> Special features: {{ venue.special_features }}</p>
               </div>
             </div>
           </div>
           {% endfor %}
         </div>
       </div>
-      
     </div>
   </div>
 </div>
