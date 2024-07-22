@@ -254,6 +254,9 @@ The Inclusive Spots website was created utilizing agile methodologies to boost t
 
 5. Error Handling: Custom error pages improve the user experience by providing meaningful feedback during errors.
 
+
+[Return to Table of Contents](#table-of-contents)
+
 ### Future Features
 
 ## Resources Page with Interactive Map
