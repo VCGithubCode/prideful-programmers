@@ -181,6 +181,19 @@ The Entity-Relationship Diagram (ERD) for our venue directory provides a structu
 
 </details>
 
+#### Mobile:
+<details>
+
+![Desktop Home page](/documents/images/home-mobile.png)
+
+![Desktop Venues page](/documents/images/venues-mobile.png)
+
+![Desktop About page](/documents/images/about-mobile.png)
+
+![Desktop Contact page](/documents/images/contact-mobile.png)
+
+</details>
+
 ## Technologies Used
 
 ### Languages
