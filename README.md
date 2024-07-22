@@ -278,9 +278,11 @@ Search and Filter: Easily search for specific venues or filter by category.
 Detailed Information: Venue listings include address, contact info, opening hours, and special features.
 User Reviews: Users can leave reviews and ratings for venues.
 
+
 ## Interactive Map
 To enhance user experience, an interactive map feature will be integrated, allowing users to visualize the location of each venue with functionalities like geolocation, pins and markers, info windows, map filters, and directions.
 
+[Return to Table of Contents](#table-of-contents)
 
 ## Deployment
 
