@@ -11,10 +11,11 @@
     </div>
   </div>
 
+  <!-- Venues -->
   <ul class="nav nav-tabs" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
       <button
-        class="nav-link active"
+        class="nav-link {% if selected_category == 'Café' %}active{% endif %}"
         id="cafes-tab"
         data-bs-toggle="tab"
         data-bs-target="#cafes"
@@ -28,7 +29,7 @@
     </li>
     <li class="nav-item" role="presentation">
       <button
-        class="nav-link"
+        class="nav-link {% if selected_category == 'Club' %}active{% endif %}"
         id="clubs-tab"
         data-bs-toggle="tab"
         data-bs-target="#clubs"
@@ -42,7 +43,7 @@
     </li>
     <li class="nav-item" role="presentation">
       <button
-        class="nav-link"
+        class="nav-link {% if selected_category == 'Support Center' %}active{% endif %}"
         id="supportcenters-tab"
         data-bs-toggle="tab"
         data-bs-target="#supportcenters"
@@ -56,9 +57,10 @@
     </li>
   </ul>
 
+    <!-- Cafés Tab -->
   <div class="tab-content" id="myTabContent">
     <div
-      class="tab-pane fade show active"
+      class="tab-pane fade {% if selected_category == 'Café' %}show active{% endif %}"
       id="cafes"
       role="tabpanel"
       aria-labelledby="cafés-tab"
@@ -102,8 +104,9 @@
         </div>
       </div>
     </div>
+    <!-- Clubs Tab -->
     <div
-      class="tab-pane fade"
+      class="tab-pane fade {% if selected_category == 'Club' %}show active{% endif %}"
       id="clubs"
       role="tabpanel"
       aria-labelledby="clubs-tab"
@@ -147,8 +150,9 @@
         </div>
       </div>
     </div>
+    <!-- Support Centers Tab -->
     <div
-      class="tab-pane fade"
+      class="tab-pane fade {% if selected_category == 'Support Center' %}show active{% endif %}"
       id="supportcenters"
       role="tabpanel"
       aria-labelledby="supportcenters"

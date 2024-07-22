@@ -16,6 +16,8 @@ class VenueList(generic.ListView):
      
      def get_context_data(self, **kwargs):
           context = super().get_context_data(**kwargs)
+          category = self.request.GET.get('category', 'Café')
+          context['selected_category'] = category
           context['cafes'] = Venue.objects.filter(category='Café')
           context['clubs'] = Venue.objects.filter(category='Club')
           context['support_centers'] = Venue.objects.filter(category='Support Center')
