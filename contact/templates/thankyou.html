@@ -6,7 +6,7 @@
     <script>
       setTimeout(function() {
         window.location.href = "{% url 'home' %}"
-      }, 5000);
+      }, 10000);
     </script>
 {% endblock %}
 
@@ -26,6 +26,7 @@
             Your message has been received.
           </p>
           <p class="lh-m">Please allow 1-2 working days for a response.</p>
+          <p class="lh-m fs-5">You will be redirected to the home page in 10 seconds...</p>
           <a class="btn btn-primary btn-sm mb-2" href="{% url 'home' %}" aria-labels="Link to Home page"><i class="fa-solid fa-house"></i> Return to the Home Page</a>
           <hr class="w-50 mx-auto mt-2">
             <img class="img-fluid rounded mb-4 mb-lg-0"

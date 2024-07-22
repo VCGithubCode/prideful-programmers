@@ -254,6 +254,22 @@ The Inclusive Spots website was created utilizing agile methodologies to boost t
 
 5. Error Handling: Custom error pages improve the user experience by providing meaningful feedback during errors.
 
+### Future Features
+
+## Resources Page with Interactive Map
+We are planning to introduce a comprehensive Resources page to provide users with essential information and links to helpful venues categorized into Cafes, Support Centers, and Clubs. This page aims to support the community by offering easy access to places that promote inclusivity and support.
+## Categories
+# Cafes
+Welcoming environments ideal for socializing, working, or relaxing. Known for inclusive policies and a friendly atmosphere.
+# Support Centers
+Essential services and support for mental health, career counseling, and community assistance. Safe spaces dedicated to helping individuals navigate challenges.
+# Clubs
+Social and recreational activities fostering community and belonging, including sports clubs, book clubs, and social groups.
+## Features
+Search and Filter: Easily search for specific venues or filter by category.
+Detailed Information: Venue listings include address, contact info, opening hours, and special features.
+User Reviews: Users can leave reviews and ratings for venues.
+
 [Return to Table of Contents](#table-of-contents)
 
 ## Deployment
