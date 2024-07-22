@@ -173,19 +173,11 @@ The Entity-Relationship Diagram (ERD) for our venue directory provides a structu
 
 ![Desktop Home page](/documents/images/home-page.png)
 
+![Desktop Venues page](/documents/images/venues-page.png)
+
 ![Desktop About page](/documents/images/about-page.png)
 
 ![Desktop Contact page](/documents/images/contact-page.png)
-
-![Desktop Cafe page](/documents/images/cafe-page.png)
-
-![Desktop Support Centres page](/documents/images/support-centres-page.png)
-
-![Desktop Clubs page](/documents/images/club-page.png)
-
-![Desktop Sign Up page](/documents/images/sign-up-page.png)
-
-![Desktop Sign In page](/documents/images/sign-in-page.png)
 
 </details>
 
