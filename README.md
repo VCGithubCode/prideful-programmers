@@ -40,14 +40,15 @@ The project is deployed and can be accessed at [https://prideful-programmers-01c
     4. [Tools](#tools)
     5. [Supporting Libraries and Packages](#supporting-libraries-and-packages)
 7. [Methodology](#methodology)
-8. [Future Features](#future-features)
-9. [Deployment](#deployment)
-10. [Performance](#performance)
-11. [Code Validation](#html-validation)
+8. [Features](#features)
+9. [Future Features](#future-features)
+10. [Deployment](#deployment)
+11. [Performance](#performance)
+12. [Code Validation](#html-validation)
     1. [HTML Validation](#html-validation)
     2. [CSS Validation](#css-validation)
-12. [Credits](#credits)
-13. [Acknowledgements](#acknowledgements)
+13. [Credits](#credits)
+14. [Acknowledgements](#acknowledgements)
 
 
 ## Introduction
@@ -259,30 +260,66 @@ The Inclusive Spots website was created utilizing agile methodologies to boost t
 
 [Return to Table of Contents](#table-of-contents)
 
+## Features
+
+### Landing page, Header and Footer
+![Header](documentation/images/features\Header.png)
+![upper landing page](documentation/images/features/landing-upper-fold.png)
+![lower landing page](documentation/images/features/landing-bottom-fold.png)
+![Footer](documentation/images/features/footer.png)
+
+- The landing page greets the user with a quick introductory paragraph noting the purpoes of the website. It is split into two main sections, separated by a background image in the middle of the page. 
+ - The users are then invited to proceed onto the main Venue page upon clicking one of the four buttons provided. 
+ - The Header has the development team's logo and the Website's name to the left and the navigation bar to the right. On Mobile screens it becomes a burger bar.
+ - The Footer has a copyright and the Website's name which acts as an anchor to return the user to the landing page. The social buttons are styled to provide a better visual effect. 
+
+### The Venues page
+- The main venue page lists three categories: cafes, bars/clubs and support centres. Depending on which button the user selected on the landing page, they will be taken to the filtered list of venues. 
+
+#### Categories
+
+##### Cafes
+Welcoming environments ideal for socializing, working, or relaxing. Known for inclusive policies and a friendly atmosphere.
+
+##### Support Centers
+Essential services and support for mental health, career counseling, and community assistance. Safe spaces dedicated to helping individuals navigate challenges.
+
+##### Clubs
+Social and recreational activities fostering community and belonging, including sports clubs, book clubs, and social groups.
+
+Each venue includes the following:
+- Search and Filter: Easily search for specific venues or filter by category.
+- Detailed Information: Venue listings include address, contact info, opening hours, and special features.
+
+### The About page
+- The about page contains a list of developers for the user to see who has contributed to the project and also allows to connect with them via Github or LinkedIn platforms.
+
+### The Contact page
+- The contact page allows the user to submit an enquiry form to the website. Upon completion a thank you note appears indicating to the user that their enquiry has been submitted.
+
+![contact page](documentation/images/features/contact-upper.png)
+![contact page](documentation/images/features/contact-lower.png)
+
+### 404 & 500 Error pages
+- Error pages have been included to ensure that the user is notified in case there are any bugs or errors occuring that prevent the user to access the content they intended. 
+    - Each page have a button taking the user back to the landing page. 
+
+- 404 error page image
+![404 page](documentation/images/features/error404.png)
+
+- 500 error page
+![500 page](documentation/images/features/error404.pngdocumentation/images/features/error505.png)
+
+[Return to Table of Contents](#table-of-contents)
+
 ## Future Features
 
 ### Resources Page with Interactive Map
-We are planning to introduce a comprehensive Resources page to provide users with essential information and links to helpful venues categorized into Cafes, Support Centers, and Clubs. This page aims to support the community by offering easy access to places that promote inclusivity and support.
+- We are planning to introduce a comprehensive Resources page to provide users with essential information and links to helpful venues categorized into Cafes, Support Centers, and Clubs. This page aims to support the community by offering easy access to places that promote inclusivity and support.
+- To enhance user experience, an interactive map feature will be integrated, allowing users to visualize the location of each venue with functionalities like geolocation, pins and markers, info windows, map filters, and directions.
 
-## Categories
-
-### Cafes
-Welcoming environments ideal for socializing, working, or relaxing. Known for inclusive policies and a friendly atmosphere.
-
-### Support Centers
-Essential services and support for mental health, career counseling, and community assistance. Safe spaces dedicated to helping individuals navigate challenges.
-
-### Clubs
-Social and recreational activities fostering community and belonging, including sports clubs, book clubs, and social groups.
-
-## Features
-Search and Filter: Easily search for specific venues or filter by category.
-Detailed Information: Venue listings include address, contact info, opening hours, and special features.
-User Reviews: Users can leave reviews and ratings for venues.
-
-
-## Interactive Map
-To enhance user experience, an interactive map feature will be integrated, allowing users to visualize the location of each venue with functionalities like geolocation, pins and markers, info windows, map filters, and directions.
+### User Reviews
+- Users can leave reviews and ratings for venues.
 
 [Return to Table of Contents](#table-of-contents)
 
