@@ -273,6 +273,7 @@ Search and Filter: Easily search for specific venues or filter by category.
 Detailed Information: Venue listings include address, contact info, opening hours, and special features.
 User Reviews: Users can leave reviews and ratings for venues.
 
+[Return to Table of Contents](#table-of-contents)
 
 ## Deployment
 
