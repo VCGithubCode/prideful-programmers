@@ -24,7 +24,7 @@ The project is deployed and can be accessed at [https://prideful-programmers-01c
     2. [Objectives](#objectives)
     3. [Target Audience](#target-audience)
     4. [Benefits](#benefits)
-4. [Database Scheme](#database-schema)
+4. [Database Scheme](#database-scheme)
     1. [Home App](#home-app)
     2. [Venues App](#venues-app)
 5. [Design](#design)
