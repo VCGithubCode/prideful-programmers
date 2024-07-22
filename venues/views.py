@@ -14,18 +14,13 @@ class VenueList(generic.ListView):
      def get_queryset(self):
           return Venue.objects.all()
      
-     def get_context(self, **kwargs):
-          context = super().get_conext_data(**kwargs)
-          categories = [choice[0] for choice in Venue.CATEGORY]
-          venue_category = {
-               category: self.get_queryset().filter(category=category) for category in categories
-               }
-          
-          context['categories'] = categories
-          context['venue_category'] = venue_category
+     def get_context_data(self, **kwargs):
+          context = super().get_context_data(**kwargs)
+          context['cafes'] = Venue.objects.filter(category='Café')
+          context['clubs'] = Venue.objects.filter(category='Club')
+          context['support_centers'] = Venue.objects.filter(category='Support Center')
           return context
-    
-     
+       
 class VenueDetail(generic.DetailView):
      """
      Venue detail view
